@@ -1,0 +1,8 @@
+Started executing linpeas at: 10:57/10:58
+Finished executing at: 
+
+First try, lightweight linpeas 10:53-10:58
+second try, full noise linpeas 10:57/10:58 - 11:07/11:08
+
+NB. Rocky linux has a different time. When in the logs you see 5:09
+	in reality that's 11:09. Rocky is 6 hours earlier
