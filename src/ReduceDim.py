@@ -133,10 +133,18 @@ class ReduceDim():
         umap_emb = umap.UMAP(n_components=self.n_components)
         umap_components = umap_emb.fit_transform(self.df)
 
+        # save learned embedding
+        self.umap_emb = umap_emb
+
         if self.plots[0]:
             self.visualize(umap_components)
 
         return umap_components
+
+
+    def test_umap(self, test_df):
+        components = self.umap_emb.transform(test_df)
+        return components
 
 
     '''

@@ -441,10 +441,16 @@ class ParamsExtractor():
             if i == 0:
                 timedeltas.append(0)
             else:
-                date = datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S %z')
-                date_prev = datetime.strptime(self.df['time'][i-1], '%Y-%m-%d %H:%M:%S %z')
-                timedelta = date - date_prev
-                timedeltas.append(timedelta.total_seconds())
+                try:
+                    date = datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S %z')
+                    date_prev = datetime.strptime(self.df['time'][i-1], '%Y-%m-%d %H:%M:%S %z')
+                    timedelta = date - date_prev
+                    timedeltas.append(timedelta.total_seconds())
+                except:
+                    date = datetime.strptime(date_str, '%Y-%m-%dT%H:%M:%S.%f%z')
+                    date_prev = datetime.strptime(self.df['time'][i-1], '%Y-%m-%dT%H:%M:%S.%f%z')
+                    timedelta = date - date_prev
+                    timedeltas.append(timedelta.total_seconds())
 
         self.df['timedelta'] = timedeltas
 

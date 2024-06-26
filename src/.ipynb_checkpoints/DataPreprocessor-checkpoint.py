@@ -12,7 +12,7 @@ class DataPreprocessor():
         columns_to_drop = ['message', 'severity', 'facility', 'time' ,'severity_numbers']
         columns_to_encode =['host', 'ident', 'pid', 'facility_numbers', 'user', 'user_cron',\
                             'sender', 'receiver', 'alphanum_code', 'status', 'ip', 'user_1',\
-                            'user_2', 'bet_par']
+                            'user_2', 'bet_par', 'session']
 
         # One-Hot encode the log keys also !!!
 
@@ -36,7 +36,7 @@ class DataPreprocessor():
         columns_to_drop = ['message', 'severity', 'facility', 'time' ,'severity_numbers']
         columns_to_encode =['host', 'ident', 'pid', 'facility_numbers', 'user', 'user_cron',\
                             'sender', 'receiver', 'alphanum_code', 'status', 'ip', 'user_1',\
-                            'user_2', 'bet_par', 'log key', 'log key spell']
+                            'user_2', 'bet_par', 'session'] #, 'log key', 'log key spell']
 
         #['host', 'ident', 'pid', 'message', 'severity', 'facility', 'time','severity_numbers', 'facility_numbers', 'severity_scores', 'timedelta','log key', 'log key spell']
 

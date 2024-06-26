@@ -76,6 +76,35 @@ class Reader():
         df = pd.DataFrame(data_list)
         return df
 
+
+    def read_file_2(self, filepath, return_list=False):
+        self.filepath = filepath
+        self.check_file(self.filepath)
+        data_list = []
+        lines_limit = 1000 # limit reading lines, done for memory constraints
+        i = 0
+
+        with open(self.filepath, 'r') as file:
+            for line in file:
+                line=line.strip()
+                i+=1
+                if i > lines_limit:
+                    break
+
+                if line:
+                    try:
+                        data = json.loads(line)
+                        data_list.append(data)
+                    except json.JSONDecodeError as e:
+                        #print(e)
+                        continue
+
+        if return_list:
+            return data_list
+
+        df = pd.DataFrame(data_list)
+        return df
+
     
     def read_chunk(self, filepath, step=1000):
 

@@ -5,6 +5,7 @@ severity_dict = {
     "error": 3,
     "err":3,
     "warn": 4,
+    "warning":4,
     "notice": 5,
     "info": 6,
     "debug": 7
