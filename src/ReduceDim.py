@@ -113,38 +113,84 @@ class ReduceDim():
         return X_mvu
 
 
+    
     '''
     Function to perform t-SNE
     '''
     def tsne(self):
-        tsne = TSNE(n_components=self.n_components)
-        tsne_components = tsne.fit_transform(self.df)
+        """
+        Performs t-Distributed Stochastic Neighbor Embedding (t-SNE) on the data.
+
+        Returns:
+        - tsne_components: Transformed data after t-SNE.
+        """
+        tsne = TSNE(n_components=self.n_components)  # Create t-SNE object
+        tsne_components = tsne.fit_transform(self.df)  # Fit and transform the data using t-SNE
 
         if self.plots[0]:
-            self.visualize(tsne_components)
-        
-        return tsne_components
+            self.visualize(tsne_components)  # Visualize the transformed data in 3D
+
+        return tsne_components  # Return transformed data after t-SNE
+
+    '''
+    Function to test t-SNE on new data
+    '''
+    def test_tsne(self, test_df):
+        """
+        Tests the t-SNE on new data by refitting on combined original and new data.
+
+        Parameters:
+        - test_df: New data to be transformed using t-SNE.
+
+        Returns:
+        - components: Transformed data after applying t-SNE on combined data.
+        """
+        # Combine the original data and the new test data
+        combined_data = np.vstack([self.df, test_df])
+
+        # Fit the t-SNE model on the combined data
+        tsne = TSNE(n_components=self.n_components)
+        combined_components = tsne.fit_transform(combined_data)
+
+        # Extract the transformed components corresponding to the test data
+        components = combined_components[len(self.df):]
+
+        return components  # Return transformed data after t-SNE
 
 
     '''
     Function to perform UMAP
     '''
     def umap(self):
-        umap_emb = umap.UMAP(n_components=self.n_components)
-        umap_components = umap_emb.fit_transform(self.df)
+        """
+        Performs Uniform Manifold Approximation and Projection (UMAP) on the data.
 
-        # save learned embedding
+        Returns:
+        - umap_components: Transformed data after UMAP.
+        """
+        umap_emb = umap.UMAP(n_components=self.n_components)  # Create UMAP object
+        umap_components = umap_emb.fit_transform(self.df)  # Fit and transform the data using UMAP
+
+        # Save learned embedding
         self.umap_emb = umap_emb
 
         if self.plots[0]:
-            self.visualize(umap_components)
+            self.visualize(umap_components)  # Visualize the transformed data in 3D
 
-        return umap_components
-
+        return umap_components  # Return transformed data after UMAP
 
     def test_umap(self, test_df):
-        components = self.umap_emb.transform(test_df)
-        return components
+        """
+        Tests the trained UMAP model on new data.
+
+        Parameters:
+        - test_df: New data to be transformed using the trained UMAP model.
+
+        Returns:
+        - components: Transformed data after applying UMAP on test_df.
+        """
+        components = self.umap_emb.transform(test_df)  # Transform the new data using trained UMAP model
+        return components  # Return transformed data after UMAP
 
 
     '''
