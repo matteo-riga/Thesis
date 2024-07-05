@@ -233,7 +233,7 @@ class DeepLearningAnomalyDetection():
             plt.show()
 
 
-        return true_anomalies, reconstructed_anomalies
+        return true_anomalies, reconstructed_anomalies, false_positive
 
 
     def ensemble_method(self, normal_df, anomalous_df, plots=[0]):
