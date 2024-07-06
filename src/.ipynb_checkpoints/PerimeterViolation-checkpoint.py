@@ -27,7 +27,7 @@ class PerimeterViolation():
         Returns:
             file_paths (list): the list of found file paths
         '''
-        file_path_pattern = r'\/(?:[^\/\s]+\/?)+\b'
+        file_path_pattern = r'\/(?:[a-zA-Z0-9_\-\.]+\/?)*'
         sub_pattern = r'*'
         file_paths = re.findall(file_path_pattern, line)
         #self.temporary_log_key = re.sub(file_path_pattern, sub_pattern, self.temporary_log_key)
