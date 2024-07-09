@@ -1,0 +1,94 @@
+{"host":"localhost","ident":"CROND[3846]:","pid":"3846","message":"(root) CMD (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-06-22T12:01:01.366007-04:00"}
+{"host":"localhost","ident":"run-parts[3849]:","pid":"3849","message":"(\/etc\/cron.hourly) starting 0anacron","severity":"notice","facility":"cron","time":"2024-06-22T12:01:01.426545-04:00"}
+{"host":"localhost","ident":"run-parts[3861]:","pid":"3861","message":"(\/etc\/cron.hourly) finished 0anacron","severity":"notice","facility":"cron","time":"2024-06-22T12:01:01.485245-04:00"}
+{"host":"localhost","ident":"CROND[3845]:","pid":"3845","message":"(root) CMDEND (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-06-22T12:01:01.487222-04:00"}
+{"host":"localhost","ident":"crond[935]:","pid":"935","message":"(CRON) STARTUP (1.5.7)","severity":"info","facility":"cron","time":"2024-06-23T05:29:44.248136-04:00"}
+{"host":"localhost","ident":"crond[935]:","pid":"935","message":"(CRON) INFO (Syslog will be used instead of sendmail.)","severity":"info","facility":"cron","time":"2024-06-23T05:29:44.249819-04:00"}
+{"host":"localhost","ident":"crond[935]:","pid":"935","message":"(CRON) INFO (RANDOM_DELAY will be scaled with factor 23% if used.)","severity":"info","facility":"cron","time":"2024-06-23T05:29:44.249911-04:00"}
+{"host":"localhost","ident":"crond[935]:","pid":"935","message":"(CRON) INFO (running with inotify support)","severity":"info","facility":"cron","time":"2024-06-23T05:29:44.249954-04:00"}
+{"host":"localhost","ident":"crond[924]:","pid":"924","message":"(CRON) STARTUP (1.5.7)","severity":"info","facility":"cron","time":"2024-06-23T05:49:59.297470-04:00"}
+{"host":"localhost","ident":"crond[924]:","pid":"924","message":"(CRON) INFO (Syslog will be used instead of sendmail.)","severity":"info","facility":"cron","time":"2024-06-23T05:49:59.297942-04:00"}
+{"host":"localhost","ident":"crond[924]:","pid":"924","message":"(CRON) INFO (RANDOM_DELAY will be scaled with factor 3% if used.)","severity":"info","facility":"cron","time":"2024-06-23T05:49:59.298036-04:00"}
+{"host":"localhost","ident":"crond[924]:","pid":"924","message":"(CRON) INFO (running with inotify support)","severity":"info","facility":"cron","time":"2024-06-23T05:49:59.298054-04:00"}
+{"host":"localhost","ident":"CROND[3408]:","pid":"3408","message":"(root) CMD (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-06-23T06:01:01.358981-04:00"}
+{"host":"localhost","ident":"run-parts[3411]:","pid":"3411","message":"(\/etc\/cron.hourly) starting 0anacron","severity":"notice","facility":"cron","time":"2024-06-23T06:01:01.375530-04:00"}
+{"host":"localhost","ident":"anacron[3421]:","pid":"3421","message":"Anacron started on 2024-06-23","severity":"notice","facility":"cron","time":"2024-06-23T06:01:01.398954-04:00"}
+{"host":"localhost","ident":"anacron[3421]:","pid":"3421","message":"Will run job `cron.daily' in 5 min.","severity":"notice","facility":"cron","time":"2024-06-23T06:01:01.402063-04:00"}
+{"host":"localhost","ident":"anacron[3421]:","pid":"3421","message":"Will run job `cron.monthly' in 45 min.","severity":"notice","facility":"cron","time":"2024-06-23T06:01:01.402111-04:00"}
+{"host":"localhost","ident":"anacron[3421]:","pid":"3421","message":"Jobs will be executed sequentially","severity":"notice","facility":"cron","time":"2024-06-23T06:01:01.402127-04:00"}
+{"host":"localhost","ident":"run-parts[3423]:","pid":"3423","message":"(\/etc\/cron.hourly) finished 0anacron","severity":"notice","facility":"cron","time":"2024-06-23T06:01:01.404514-04:00"}
+{"host":"localhost","ident":"CROND[3407]:","pid":"3407","message":"(root) CMDEND (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-06-23T06:01:01.405546-04:00"}
+{"host":"localhost","ident":"anacron[3421]:","pid":"3421","message":"Job `cron.daily' started","severity":"notice","facility":"cron","time":"2024-06-23T06:06:01.407142-04:00"}
+{"host":"localhost","ident":"anacron[3421]:","pid":"3421","message":"Job `cron.daily' terminated","severity":"notice","facility":"cron","time":"2024-06-23T06:06:01.426210-04:00"}
+{"host":"localhost","ident":"anacron[3421]:","pid":"3421","message":"Job `cron.monthly' started","severity":"notice","facility":"cron","time":"2024-06-23T06:46:01.455612-04:00"}
+{"host":"localhost","ident":"anacron[3421]:","pid":"3421","message":"Job `cron.monthly' terminated","severity":"notice","facility":"cron","time":"2024-06-23T06:46:01.581325-04:00"}
+{"host":"localhost","ident":"anacron[3421]:","pid":"3421","message":"Normal exit (2 jobs run)","severity":"notice","facility":"cron","time":"2024-06-23T06:46:01.581709-04:00"}
+{"host":"localhost","ident":"CROND[3781]:","pid":"3781","message":"(root) CMD (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-06-23T07:01:01.972812-04:00"}
+{"host":"localhost","ident":"run-parts[3784]:","pid":"3784","message":"(\/etc\/cron.hourly) starting 0anacron","severity":"notice","facility":"cron","time":"2024-06-23T07:01:01.998941-04:00"}
+{"host":"localhost","ident":"run-parts[3790]:","pid":"3790","message":"(\/etc\/cron.hourly) finished 0anacron","severity":"notice","facility":"cron","time":"2024-06-23T07:01:02.029112-04:00"}
+{"host":"localhost","ident":"CROND[3780]:","pid":"3780","message":"(root) CMDEND (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-06-23T07:01:02.030624-04:00"}
+{"host":"localhost","ident":"CROND[3808]:","pid":"3808","message":"(root) CMD (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-06-23T08:01:01.599912-04:00"}
+{"host":"localhost","ident":"run-parts[3811]:","pid":"3811","message":"(\/etc\/cron.hourly) starting 0anacron","severity":"notice","facility":"cron","time":"2024-06-23T08:01:01.747814-04:00"}
+{"host":"localhost","ident":"run-parts[3817]:","pid":"3817","message":"(\/etc\/cron.hourly) finished 0anacron","severity":"notice","facility":"cron","time":"2024-06-23T08:01:01.802029-04:00"}
+{"host":"localhost","ident":"CROND[3807]:","pid":"3807","message":"(root) CMDEND (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-06-23T08:01:01.805746-04:00"}
+{"host":"localhost","ident":"CROND[4056]:","pid":"4056","message":"(root) CMD (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-06-23T11:01:01.460368-04:00"}
+{"host":"localhost","ident":"run-parts[4059]:","pid":"4059","message":"(\/etc\/cron.hourly) starting 0anacron","severity":"notice","facility":"cron","time":"2024-06-23T11:01:01.515608-04:00"}
+{"host":"localhost","ident":"run-parts[4065]:","pid":"4065","message":"(\/etc\/cron.hourly) finished 0anacron","severity":"notice","facility":"cron","time":"2024-06-23T11:01:01.544158-04:00"}
+{"host":"localhost","ident":"CROND[4055]:","pid":"4055","message":"(root) CMDEND (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-06-23T11:01:01.546840-04:00"}
+{"host":"localhost","ident":"crond[920]:","pid":"920","message":"(CRON) STARTUP (1.5.7)","severity":"info","facility":"cron","time":"2024-06-24T10:42:22.694782-04:00"}
+{"host":"localhost","ident":"crond[920]:","pid":"920","message":"(CRON) INFO (Syslog will be used instead of sendmail.)","severity":"info","facility":"cron","time":"2024-06-24T10:42:22.701574-04:00"}
+{"host":"localhost","ident":"crond[920]:","pid":"920","message":"(CRON) INFO (RANDOM_DELAY will be scaled with factor 53% if used.)","severity":"info","facility":"cron","time":"2024-06-24T10:42:22.701875-04:00"}
+{"host":"localhost","ident":"crond[920]:","pid":"920","message":"(CRON) INFO (running with inotify support)","severity":"info","facility":"cron","time":"2024-06-24T10:42:22.708097-04:00"}
+{"host":"localhost","ident":"crontab[12108]:","pid":"12108","message":"(matteo) LIST (matteo)","severity":"info","facility":"cron","time":"2024-06-24T10:54:59.213561-04:00"}
+{"host":"localhost","ident":"CROND[129785]:","pid":"129785","message":"(root) CMD (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-06-24T11:01:01.732564-04:00"}
+{"host":"localhost","ident":"run-parts[129798]:","pid":"129798","message":"(\/etc\/cron.hourly) starting 0anacron","severity":"notice","facility":"cron","time":"2024-06-24T11:01:01.765534-04:00"}
+{"host":"localhost","ident":"run-parts[129827]:","pid":"129827","message":"(\/etc\/cron.hourly) finished 0anacron","severity":"notice","facility":"cron","time":"2024-06-24T11:01:01.812089-04:00"}
+{"host":"localhost","ident":"CROND[129782]:","pid":"129782","message":"(root) CMDEND (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-06-24T11:01:01.813246-04:00"}
+{"host":"localhost","ident":"crontab[144054]:","pid":"144054","message":"(matteo) LIST (matteo)","severity":"info","facility":"cron","time":"2024-06-24T11:13:58.407688-04:00"}
+{"host":"localhost","ident":"crontab[201693]:","pid":"201693","message":"(matteo) LIST (matteo)","severity":"info","facility":"cron","time":"2024-06-24T11:20:29.328272-04:00"}
+{"host":"localhost","ident":"crond[924]:","pid":"924","message":"(CRON) STARTUP (1.5.7)","severity":"info","facility":"cron","time":"2024-06-25T04:29:24.057493-04:00"}
+{"host":"localhost","ident":"crond[924]:","pid":"924","message":"(CRON) INFO (Syslog will be used instead of sendmail.)","severity":"info","facility":"cron","time":"2024-06-25T04:29:24.072747-04:00"}
+{"host":"localhost","ident":"crond[924]:","pid":"924","message":"(CRON) INFO (RANDOM_DELAY will be scaled with factor 56% if used.)","severity":"info","facility":"cron","time":"2024-06-25T04:29:24.072822-04:00"}
+{"host":"localhost","ident":"crond[924]:","pid":"924","message":"(CRON) INFO (running with inotify support)","severity":"info","facility":"cron","time":"2024-06-25T04:29:24.073340-04:00"}
+{"host":"localhost","ident":"crond[924]:","pid":"924","message":"(CRON) INFO (Shutting down)","severity":"info","facility":"cron","time":"2024-06-25T04:34:38.323824-04:00"}
+{"host":"localhost","ident":"crond[5520]:","pid":"5520","message":"(CRON) STARTUP (1.5.7)","severity":"info","facility":"cron","time":"2024-06-25T04:34:38.372351-04:00"}
+{"host":"localhost","ident":"crond[5520]:","pid":"5520","message":"(CRON) INFO (Syslog will be used instead of sendmail.)","severity":"info","facility":"cron","time":"2024-06-25T04:34:38.373089-04:00"}
+{"host":"localhost","ident":"crond[5520]:","pid":"5520","message":"(CRON) INFO (RANDOM_DELAY will be scaled with factor 25% if used.)","severity":"info","facility":"cron","time":"2024-06-25T04:34:38.373128-04:00"}
+{"host":"localhost","ident":"crond[5520]:","pid":"5520","message":"(CRON) INFO (running with inotify support)","severity":"info","facility":"cron","time":"2024-06-25T04:34:38.373156-04:00"}
+{"host":"localhost","ident":"crond[5520]:","pid":"5520","message":"(CRON) INFO (@reboot jobs will be run at computer's startup.)","severity":"info","facility":"cron","time":"2024-06-25T04:34:38.381533-04:00"}
+{"host":"localhost","ident":"crond[5520]:","pid":"5520","message":"(CRON) INFO (Shutting down)","severity":"info","facility":"cron","time":"2024-06-25T04:46:12.343259-04:00"}
+{"host":"localhost","ident":"crond[1039]:","pid":"1039","message":"(CRON) STARTUP (1.5.7)","severity":"info","facility":"cron","time":"2024-06-25T04:46:56.215261-04:00"}
+{"host":"localhost","ident":"crond[1039]:","pid":"1039","message":"(CRON) INFO (Syslog will be used instead of sendmail.)","severity":"info","facility":"cron","time":"2024-06-25T04:46:56.215591-04:00"}
+{"host":"localhost","ident":"crond[1039]:","pid":"1039","message":"(CRON) INFO (RANDOM_DELAY will be scaled with factor 11% if used.)","severity":"info","facility":"cron","time":"2024-06-25T04:46:56.215616-04:00"}
+{"host":"localhost","ident":"crond[1039]:","pid":"1039","message":"(CRON) INFO (running with inotify support)","severity":"info","facility":"cron","time":"2024-06-25T04:46:56.215631-04:00"}
+{"host":"localhost","ident":"crontab[25064]:","pid":"25064","message":"(matteo) LIST (matteo)","severity":"info","facility":"cron","time":"2024-06-25T04:55:52.900796-04:00"}
+{"host":"localhost","ident":"crontab[50553]:","pid":"50553","message":"(matteo) LIST (matteo)","severity":"info","facility":"cron","time":"2024-06-25T05:00:41.506690-04:00"}
+{"host":"localhost","ident":"CROND[54340]:","pid":"54340","message":"(root) CMD (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-06-25T05:01:01.288052-04:00"}
+{"host":"localhost","ident":"run-parts[54343]:","pid":"54343","message":"(\/etc\/cron.hourly) starting 0anacron","severity":"notice","facility":"cron","time":"2024-06-25T05:01:01.345205-04:00"}
+{"host":"localhost","ident":"run-parts[54355]:","pid":"54355","message":"(\/etc\/cron.hourly) finished 0anacron","severity":"notice","facility":"cron","time":"2024-06-25T05:01:01.403884-04:00"}
+{"host":"localhost","ident":"CROND[54339]:","pid":"54339","message":"(root) CMDEND (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-06-25T05:01:01.405690-04:00"}
+{"host":"localhost","ident":"crond[1068]:","pid":"1068","message":"(CRON) STARTUP (1.5.7)","severity":"info","facility":"cron","time":"2024-07-05T04:12:19.006636-04:00"}
+{"host":"localhost","ident":"crond[1068]:","pid":"1068","message":"(CRON) INFO (Syslog will be used instead of sendmail.)","severity":"info","facility":"cron","time":"2024-07-05T04:12:19.007090-04:00"}
+{"host":"localhost","ident":"crond[1068]:","pid":"1068","message":"(CRON) INFO (RANDOM_DELAY will be scaled with factor 95% if used.)","severity":"info","facility":"cron","time":"2024-07-05T04:12:19.007118-04:00"}
+{"host":"localhost","ident":"crond[1068]:","pid":"1068","message":"(CRON) INFO (running with inotify support)","severity":"info","facility":"cron","time":"2024-07-05T04:12:19.007133-04:00"}
+{"host":"localhost","ident":"crond[1079]:","pid":"1079","message":"(CRON) STARTUP (1.5.7)","severity":"info","facility":"cron","time":"2024-07-06T10:13:50.581366-04:00"}
+{"host":"localhost","ident":"crond[1079]:","pid":"1079","message":"(CRON) INFO (Syslog will be used instead of sendmail.)","severity":"info","facility":"cron","time":"2024-07-06T10:13:50.584216-04:00"}
+{"host":"localhost","ident":"crond[1079]:","pid":"1079","message":"(CRON) INFO (RANDOM_DELAY will be scaled with factor 43% if used.)","severity":"info","facility":"cron","time":"2024-07-06T10:13:50.584300-04:00"}
+{"host":"localhost","ident":"crond[1079]:","pid":"1079","message":"(CRON) INFO (running with inotify support)","severity":"info","facility":"cron","time":"2024-07-06T10:13:50.584320-04:00"}
+{"host":"localhost","ident":"crond[1063]:","pid":"1063","message":"(CRON) STARTUP (1.5.7)","severity":"info","facility":"cron","time":"2024-07-06T11:00:52.261722-04:00"}
+{"host":"localhost","ident":"crond[1063]:","pid":"1063","message":"(CRON) INFO (Syslog will be used instead of sendmail.)","severity":"info","facility":"cron","time":"2024-07-06T11:00:52.262406-04:00"}
+{"host":"localhost","ident":"crond[1063]:","pid":"1063","message":"(CRON) INFO (RANDOM_DELAY will be scaled with factor 64% if used.)","severity":"info","facility":"cron","time":"2024-07-06T11:00:52.262437-04:00"}
+{"host":"localhost","ident":"crond[1063]:","pid":"1063","message":"(CRON) INFO (running with inotify support)","severity":"info","facility":"cron","time":"2024-07-06T11:00:52.262535-04:00"}
+{"host":"localhost","ident":"CROND[1705]:","pid":"1705","message":"(root) CMD (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-07-06T11:01:04.210567-04:00"}
+{"host":"localhost","ident":"run-parts[1715]:","pid":"1715","message":"(\/etc\/cron.hourly) starting 0anacron","severity":"notice","facility":"cron","time":"2024-07-06T11:01:04.348991-04:00"}
+{"host":"localhost","ident":"run-parts[1737]:","pid":"1737","message":"(\/etc\/cron.hourly) finished 0anacron","severity":"notice","facility":"cron","time":"2024-07-06T11:01:04.594302-04:00"}
+{"host":"localhost","ident":"CROND[1704]:","pid":"1704","message":"(root) CMDEND (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-07-06T11:01:04.606311-04:00"}
+{"host":"localhost","ident":"crond[1063]:","pid":"1063","message":"(CRON) INFO (Shutting down)","severity":"info","facility":"cron","time":"2024-07-06T11:20:09.584986-04:00"}
+{"host":"localhost","ident":"crond[1052]:","pid":"1052","message":"(CRON) STARTUP (1.5.7)","severity":"info","facility":"cron","time":"2024-07-08T10:48:27.931107-04:00"}
+{"host":"localhost","ident":"crond[1052]:","pid":"1052","message":"(CRON) INFO (Syslog will be used instead of sendmail.)","severity":"info","facility":"cron","time":"2024-07-08T10:48:27.931980-04:00"}
+{"host":"localhost","ident":"crond[1052]:","pid":"1052","message":"(CRON) INFO (RANDOM_DELAY will be scaled with factor 13% if used.)","severity":"info","facility":"cron","time":"2024-07-08T10:48:27.932004-04:00"}
+{"host":"localhost","ident":"crond[1052]:","pid":"1052","message":"(CRON) INFO (running with inotify support)","severity":"info","facility":"cron","time":"2024-07-08T10:48:27.932019-04:00"}
+{"host":"localhost","ident":"CROND[3484]:","pid":"3484","message":"(root) CMD (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-07-08T11:01:02.004755-04:00"}
+{"host":"localhost","ident":"run-parts[3487]:","pid":"3487","message":"(\/etc\/cron.hourly) starting 0anacron","severity":"notice","facility":"cron","time":"2024-07-08T11:01:02.061627-04:00"}
+{"host":"localhost","ident":"run-parts[3499]:","pid":"3499","message":"(\/etc\/cron.hourly) finished 0anacron","severity":"notice","facility":"cron","time":"2024-07-08T11:01:02.126272-04:00"}
+{"host":"localhost","ident":"CROND[3483]:","pid":"3483","message":"(root) CMDEND (run-parts \/etc\/cron.hourly)","severity":"info","facility":"cron","time":"2024-07-08T11:01:02.127776-04:00"}
