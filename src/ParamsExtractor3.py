@@ -134,6 +134,11 @@ class ParamsExtractor():
                 parent_comm = parsed['PARENT_INFO']['comm']
             except:
                 parent_comm = -1
+
+            try:
+                exit = parsed['SYSCALL']['exit']
+            except:
+                exit = -1
                 
             try:
                 #suid = parsed['SYSCALL']['suid']
@@ -143,7 +148,7 @@ class ParamsExtractor():
                 cap_fp = -1
 
             perimeter = PerimeterViolation.PerimeterViolation().analyze_line(line)
-            params = [suid, cap_fp, comm, parent_comm]
+            params = [suid, cap_fp, comm, parent_comm, exit]
             self.temporary_log_key = '*'
             log_key_number = -1
 
@@ -198,7 +203,7 @@ class ParamsExtractor():
             df.columns = ['process', 'user', 'sender', 'receiver', 'nrcpt', 'alphanum_code', 'status', 'ip', 'port', 'session', 'log key', 'log key spell', 'n_dang', 'n_dang_no_cron', 'fp_length']
         except:
             # Laurel case
-            df.columns = ['suid', 'cap_fp', 'comm', 'parent_comm', 'log key', 'n_dang', 'n_dang_no_cron', 'fp_length']
+            df.columns = ['suid', 'cap_fp', 'comm', 'parent_comm', 'exit', 'log key', 'n_dang', 'n_dang_no_cron', 'fp_length']
 
         mask = (df != -1).any()
         df = df.loc[:,mask]

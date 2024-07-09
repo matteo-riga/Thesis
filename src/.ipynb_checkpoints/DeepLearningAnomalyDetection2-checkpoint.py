@@ -97,11 +97,19 @@ class DeepLearningAnomalyDetection():
         dataset = dataframe[['severity_scores', 'timedelta', 'log key']]
         return dataset
 
+    def get_dataset_laurel(self, dataframe):
+        #dataset = dataframe[['severity_scores', 'timedelta', 'log key']]
+        return dataframe
 
-    def train_test_model(self, normal_df, anomalous_df, model, plots=[0,0,0,0]):
 
-        normal_dataset = self.get_dataset(normal_df)
-        anomalous_dataset = self.get_dataset(anomalous_df)
+    def train_test_model(self, normal_df, anomalous_df, model, laurel = 0, plots=[0,0,0,0]):
+
+        if laurel == 1:
+            normal_dataset = self.get_dataset_laurel(normal_df)
+            anomalous_dataset = self.get_dataset_laurel(anomalous_df)
+        else:
+            normal_dataset = self.get_dataset(normal_df)
+            anomalous_dataset = self.get_dataset(anomalous_df)
         # Normalize the data
         scaler = MinMaxScaler()
         normal_data = scaler.fit_transform(normal_dataset)

@@ -111,17 +111,21 @@ class Reader():
         self.check_file(self.filepath)
         data_list = []
         temp = []
-        lines_limit = 1000 # limit reading lines, done for memory constraints
+        #lines_limit = 1000  # limit reading lines, done for memory constraints
+        start_line = 72160
+        current_line = 0
         i = 0
-
+    
         with open(self.filepath, 'r') as file:
             for line in file:
+                current_line += 1
+                if current_line < start_line:
+                    continue  # skip lines until reaching the starting line
+    
                 temp.append(line)
-                line=line.strip()
-                i+=1
-                if i > lines_limit:
-                    break
-
+                line = line.strip()
+                i += 1
+    
                 if line:
                     try:
                         data = json.loads(line)
@@ -129,10 +133,10 @@ class Reader():
                     except json.JSONDecodeError as e:
                         print(e)
                         continue
-
+    
         if return_list:
             return data_list
-
+    
         df = pd.DataFrame(data_list)
         return df
 
