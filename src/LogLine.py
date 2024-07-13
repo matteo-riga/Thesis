@@ -143,7 +143,7 @@ class LogLine():
         # Build Word Embedding
         msg_tokens = self.nltk_word_tokenizer(cleaned_msg)
         s_emb = SentenceEmbedding.SentenceEmbedding()
-        self.embedding = get_average_word2vec_embedding(msg_tokens, word2vec_model)
+        self.embedding = s_emb.get_bert_embedding(cleaned_msg)
 
         attributes_dict = self.get_attributes_dict()
         return attributes_dict
