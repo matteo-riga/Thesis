@@ -78,8 +78,8 @@ class PerimeterViolation():
             n_dang = len(dangerous_paths)
             n_dang_outside_cron = len(dangerous_paths_outside_cron)
         else:
-            n_dang = -1
-            n_dang_outside_cron = -1
+            n_dang = 0
+            n_dang_outside_cron = 0
     
         return n_dang, n_dang_outside_cron
 
