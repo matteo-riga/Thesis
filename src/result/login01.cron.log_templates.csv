@@ -1,0 +1,3 @@
+EventId,EventTemplate,Occurrences
+3503c1c8,"""info"",""facility"":""cron"",""time"":""2024-03-27 <*> +0100""}",492
+6b20d54c,"""notice"",""facility"":""cron"",""time"":""2024-03-27 <*> +0100""}",56

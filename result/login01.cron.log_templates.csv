@@ -1,0 +1,24 @@
+EventId,EventTemplate,Occurrences
+4b700d2d,"CMD <*> <*> +0100""}",4
+0b8b7295,"CMD ( /cinecalocal/nagios/passive/passive.pl --delay 20 --cronid <*> 1>/dev/null 2>&1)"",""severity"":""info"",""facility"":""cron"",""time"":""2024-03-27 <*> +0100""}",107
+025a764c,"CMD (source /g100_work/CMCC_medfs_0/download/set_env.sh; python /g100_work/CMCC_medfs_0/download/dasDwlSystem/mp_dwld_driver.py > /g100_work/CMCC_medfs_0/download/LOGS/dasDwlSystem/mp_dwld_driver_log_`date +%Y%m%d%H%M%S`.log 2>&1)"",""severity"":""info"",""facility"":""cron"",""time"":""2024-03-27 <*> +0100""}",31
+d0d214ba,"CMD (/g100_work/CMCC_medfs_0/download/dasDwlRawScripts/ecmwfRollingRm.sh >> /g100_work/CMCC_medfs_0/download/LOGS/ecmwfRolling.log 2>&1)"",""severity"":""info"",""facility"":""cron"",""time"":""2024-03-27 00:00:01 +0100""}",1
+960e97e5,"CMD (run-parts /etc/cron.hourly)"",""severity"":""info"",""facility"":""cron"",""time"":""2024-03-27 <*> +0100""}",21
+1691bc66,"starting <*> <*> +0100""}",22
+79e38360,"started on 2024-03-27"",""severity"":""notice"",""facility"":""cron"",""time"":""2024-03-27 <*> +0100""}",4
+bcd30937,"exit <*> <*> run)"",""severity"":""notice"",""facility"":""cron"",""time"":""2024-03-27 <*> +0100""}",4
+54d6b46c,"finished <*> <*> +0100""}",22
+ee2aaa0c,"CMD (/bin/logger \""STATUS_CHECK\"" -p local2.info >> /tmp/lastcron_remote_log_status)"",""severity"":""info"",""facility"":""cron"",""time"":""2024-03-27 <*> +0100""}",48
+9627c7b3,"CMD ( /bin/timeout 239m /cineca/asdata/bin/cindata.pl g >/tmp/lastcron_cindata 2>&1)"",""severity"":""info"",""facility"":""cron"",""time"":""2024-03-27 <*> +0100""}",44
+2818e91b,"CMD (/cinecalocal/scripts/clean_scratch_local.sh 1>/dev/null 2>/dev/null)"",""severity"":""info"",""facility"":""cron"",""time"":""2024-03-27 01:00:01 +0100""}",1
+a8ff429d,"CMD (source /g100_work/CMCC_medfs_0/download/set_env.sh; python /g100_work/CMCC_medfs_0/upload/dasUplSystem/mp_upld_driver.py -p $(date +%Y%m%d) -r <*> -s <*> > <*> +%Y%m%d%H%M%S`.log 2>&1)"",""severity"":""info"",""facility"":""cron"",""time"":""2024-03-27 <*> +0100""}",118
+50a7c8c9,"run job `cron.daily' in 28 min."",""severity"":""notice"",""facility"":""cron"",""time"":""2024-03-27 03:01:01 +0100""}",1
+3fedca0e,"will be executed sequentially"",""severity"":""notice"",""facility"":""cron"",""time"":""2024-03-27 03:01:01 +0100""}",1
+db13afee,"`cron.daily' <*> 03:29:01 +0100""}",2
+4bf10ccd,"CMD ([ ! -s /etc/yum.repos.d/eugridpma.repo ] && /usr/bin/sed 's/enabled=0/enabled=1/' /etc/yum.repos.d/eugridpma.repo.template > /etc/yum.repos.d/eugridpma.repo)"",""severity"":""info"",""facility"":""cron"",""time"":""2024-03-27 05:55:01 +0100""}",1
+c3cb0ad9,"CMD (/cineca/scripts/CAupdate/update_igtf_CA.sh -m rpm -a >/dev/null 2>&1)"",""severity"":""info"",""facility"":""cron"",""time"":""2024-03-27 06:00:01 +0100""}",1
+e4163255,"CMD (sh <*> >> <*> 2>&1)"",""severity"":""info"",""facility"":""cron"",""time"":""2024-03-27 <*> +0100""}",74
+9c747bba,"CMD (source /g100_work/CMCC_medfs_0/download/ECMWF-010/set_env.sh; python /g100_work/CMCC_medfs_0/download/ECMWF-010/PP_starter_wrap_new.py -p $(date +%Y%m%d) -t <*> > <*> 2>&1)"",""severity"":""info"",""facility"":""cron"",""time"":""2024-03-27 <*> +0100""}",4
+f588ef6f,"CMD (source /g100_work/CMCC_medfs_0/download/ECMWF-010/set_env.sh; python /g100_work/CMCC_medfs_0/download/ECMWF-010/mp_dwld_ECMWF_driver.py -p $(date -d \""yesterday\"" +%Y%m%d) -j A6 -c 18 > /g100_work/CMCC_medfs_0/download/LOGS/ECMWF-010/ECMWF_Aeron_an18_10km_CMCC.log 2>&1)"",""severity"":""info"",""facility"":""cron"",""time"":""2024-03-27 <*> +0100""}",3
+39244f1a,"CMD (source /g100_work/CMCC_medfs_0/download/ECMWF-010/set_env.sh; python /g100_work/CMCC_medfs_0/download/ECMWF-010/mp_dwld_ECMWF_driver.py -p $(date +%Y%m%d) -j <*> -c <*> > <*> 2>&1)"",""severity"":""info"",""facility"":""cron"",""time"":""2024-03-27 <*> +0100""}",32
+f453900c,"CMD (. /etc/profile.d/slurm.sh; . /etc/profile.d/modules.sh; module load python/3.8.6--gcc--10.2.0; <*> --cluster <*> --path_statistics <*> --path_account <*> --path_raw <*> <*> +0100""}",2

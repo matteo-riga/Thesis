@@ -3,6 +3,9 @@ import json
 import pandas as pd
 import nltk
 from nltk.tokenize import word_tokenize
+from nltk.corpus import words
+from nltk.data import find
+import logging
 
 import sys
 sys.path.append('../../../spell/pyspell')
@@ -42,6 +45,14 @@ class LogLine():
             nltk.data.find('tokenizers/punkt')
         except LookupError:
             nltk.download('punkt')
+
+        try:
+            find('corpora/words.zip')
+        except LookupError:
+            nltk.download('words')
+        except Exception as e:
+            logging.error(f"An error occurred while checking or downloading the 'words' corpus: {e}")
+
 
     def print_attributes(self):
         attributes = [
@@ -103,7 +114,29 @@ class LogLine():
         pattern = r'\s{2,}'
         # Replace all matches with a single space
         reduced_string = re.sub(pattern, ' ', cleaned_string)
+        #self.temporary_log_key = reduced_string
         return reduced_string
+
+    def remove_nonsense_words(self, log_text):
+        english_words = set(words.words())
+        processed_words = []
+        
+        for word in log_text.split():
+            # Remove words that are too short or too long
+            if len(word) < 3 or len(word) > 15:
+                continue
+            
+            # Remove words with unusual character distributions
+            if sum(c.isalpha() for c in word) / len(word) < 0.5:
+                continue
+            
+            # Remove words that are not in the English dictionary
+            if word.lower() not in english_words:
+                continue
+            
+            processed_words.append(word)
+        
+        return ' '.join(processed_words)
 
     def decode_json(self, line):
         index = line.find('{')
@@ -154,14 +187,18 @@ class LogLine():
         
         line = self.msg
         if self.type == 'cron':
-            
-            pattern = r'\((.*?)\) ([a-zA-Z]+) \((.*?)\)'
-            match = re.match(pattern, line)
-            user_cron = match.group(1)
-            cmd_cron = match.group(2)
-            other_text = match.group(3)
 
-            self.msg = other_text            
+            try:
+                pattern = r'\((.*?)\) ([a-zA-Z]+) \((.*?)\)'
+                match = re.match(pattern, line)
+                user_cron = match.group(1)
+                cmd_cron = match.group(2)
+                other_text = match.group(3)
+    
+                self.msg = other_text
+            except:
+                self.msg = line
+                
             return self.preprocess()
             
         elif self.type == 'laurel':
@@ -176,7 +213,7 @@ class LogLine():
                     data = -1
             return self.preprocess_laurel(data)
         else:
-            pass
+            return self.preprocess()
 
     def preprocess(self):
         # routine for non laurel preprocessing
@@ -199,7 +236,11 @@ class LogLine():
             self.perimeter_violation = (n or n_cron)
             
         # Clean the string
-        cleaned_string = self.remove_numbers_and_special_characters(self.msg)
+        if self.type == 'secure':
+            cleaned_string = self.remove_nonsense_words(self.msg)
+            cleaned_string = self.remove_numbers_and_special_characters(cleaned_string)
+        else:
+            cleaned_string = self.remove_numbers_and_special_characters(self.msg)
         return cleaned_string
 
 
