@@ -26,6 +26,22 @@ class EncodeCommand:
         
         # Add the list of encoded commands as a new column to the DataFrame
         df['enc_comm'] = encoded_commands
+
+        encoded_commands = []
+
+        # Iterate over the DataFrame and populate the command dictionary
+        for comm in df['parent_comm']:
+            if comm not in self.command_dict.values():
+                self.command_dict.update({current_index: comm})
+                encoded_commands.append(current_index)
+                current_index += 1
+            else:
+                # Find the existing key for this command
+                existing_key = next(key for key, value in self.command_dict.items() if value == comm)
+                encoded_commands.append(existing_key)
+        
+        # Add the list of encoded commands as a new column to the DataFrame
+        df['enc_parent_comm'] = encoded_commands
         
         # Save the command dictionary to a file
         with open(self.file_store, 'w') as f:
