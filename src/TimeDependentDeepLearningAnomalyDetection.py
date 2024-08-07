@@ -19,6 +19,8 @@ from tensorflow.keras.layers import (
     Cropping1D,
 )
 from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.callbacks import EarlyStopping
+
 from sklearn.metrics import mean_squared_error
 
 """
@@ -49,8 +51,12 @@ class TimeDependentDeepLearningAnomalyDetection:
         """
 
         self.features = len(df.columns)
+        print(self.features)
 
         X, y = self.create_sequences(df)
+
+        X = X.astype(np.float32)
+        y = y.astype(np.float32)
 
         # Calculate the split index based on a percentage
         split_index = int(len(X) * 0.8)
@@ -75,6 +81,8 @@ class TimeDependentDeepLearningAnomalyDetection:
         X = np.array(X)
         y = np.array(y)
 
+        print(X.shape, y.shape)
+
         return X, y
 
     def build_model(self, input_shape, output_shape):
@@ -82,14 +90,14 @@ class TimeDependentDeepLearningAnomalyDetection:
         This method builds a simple one-layer LSTM model.
         """
         input_layer = Input(shape=(self.window, self.features))
-        x = LSTM(16, activation="relu", return_sequences=True)(input_layer)
+        x = LSTM(40, activation="relu", return_sequences=True)(input_layer)
         # output_layer = TimeDistributed(Dense(self.features))(x)
-        output_layer = Conv1D(
-            self.telescope, self.features, padding="same", name="output_layer"
+        x = Conv1D(
+            self.features, self.telescope, padding="same", name="conv1d"
         )(x)
         crop_size = self.window - self.telescope
         # Crop the output to the desired length
-        output_layer = Cropping1D((0, crop_size), name="cropping")(output_layer)
+        output_layer = Cropping1D((crop_size, 0), name="cropping")(x)
 
         model = Model(inputs=input_layer, outputs=output_layer, name="CONV_LSTM_model")
 
@@ -97,12 +105,19 @@ class TimeDependentDeepLearningAnomalyDetection:
         self.model = model
         return model
 
-    def fit(self, X_train, y_train, epochs=10, batch_size=32):
-        """
-        This method trains the deep learning model on the training data.
-        """
-        # X_train = np.reshape(X_train, (X_train.shape[0], X_train.shape[1], X_train.shape[2]))  # Reshape for LSTM input
-        self.model.fit(X_train, y_train, epochs=epochs, batch_size=batch_size)
+
+    def fit(self, X_train, y_train, epochs=100, batch_size=32):
+      """
+      This method trains the deep learning model on the training data with early stopping.
+      """
+      # Define early stopping callback
+      early_stopping = EarlyStopping(monitor='val_loss', patience=10)  # Monitor validation loss
+    
+      # Train the model with early stopping
+      self.model.fit(X_train, y_train, epochs=epochs, batch_size=batch_size,
+                     validation_split=0.2,  # Include validation data
+                     callbacks=[early_stopping])  # Add early stopping callback
+
 
     def predict(self, X_test):
         """
