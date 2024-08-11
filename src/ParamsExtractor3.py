@@ -116,6 +116,8 @@ class ParamsExtractor():
             line = re.sub(complex_id_pattern, '{', line, count=1)
             parsed = r.parse_line(line)
 
+            # try to directly return parsed
+
             # In a laurel command we find directories to analyze in these fields
             #dirs = [parsed['SYSCALL']['exe'], parsed['EXECVE']['ARGV'], parsed['PATH'][0]['name'], parsed['PATH'][1]['name'], parsed['PROCTITLE']['ARGV'], parsed['PARENT_INFO']['exe']]
 
