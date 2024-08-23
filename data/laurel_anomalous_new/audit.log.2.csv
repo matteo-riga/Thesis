@@ -1,0 +1,1001 @@
+cwd,exit,items,ppid,pid,comm,timedelta,pid_timedelta,id_anomalies,num_id_anomalies,ARGV_PROCTITLE_str
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,18949,18951,cut,,,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,18948,grep,0.004000186920166016,0 days 00:00:00.004000188,0,0,grep -q /chkperm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,18954,18956,cut,0.00599980354309082,0 days 00:00:00.005999804,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,18953,grep,0.0070002079010009766,0 days 00:00:00.007000208,0,0,grep -q /chpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,18959,18961,cut,0.019999980926513672,0 days 00:00:00.019999981,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,18958,grep,0.011999845504760742,0 days 00:00:00.011999845,0,0,grep -q 6.6\(CVE-2019-19726\)--OpenBSD_2.7_i386/OpenBSD_2.6_i386/OpenBSD_2.5_1999/08/06/OpenBSD_2.5_1998/05/28/FreeBSD_4.0-RELEA
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,18964,18966,cut,0.01699995994567871,0 days 00:00:00.016999960,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,18963,grep,0.00800013542175293,0 days 00:00:00.008000135,0,0,grep -q /chpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,18969,18971,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,18968,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /dtappgather$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,18974,18976,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,18973,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /dtprintinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,18979,18981,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,18978,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -q /dtsession$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,18984,18986,cut,0.003999948501586914,0 days 00:00:00.003999948,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,18983,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /eject$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,18989,18991,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,18988,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /ibstat$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,18994,18996,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,18993,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /kcheckpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,18999,19001,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,18998,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /kdesud$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19004,19006,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19003,grep,0.0019998550415039062,0 days 00:00:00.001999855,0,0,grep -q /keybase-redirector
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19009,19011,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19008,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /login$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19014,19016,cut,0.00599980354309082,0 days 00:00:00.005999803,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19013,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /lpc$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19019,19021,cut,0.00599980354309082,0 days 00:00:00.005999804,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19018,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /lpr$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19024,19026,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19023,grep,0.002000093460083008,0 days 00:00:00.002000092,0,0,grep -q /mail.local$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19029,19031,cut,0.006000041961669922,0 days 00:00:00.006000043,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19028,grep,0.0019998550415039062,0 days 00:00:00.001999855,0,0,grep -q /mount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19034,19036,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19033,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /movemail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19039,19041,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19038,grep,0.002000093460083008,0 days 00:00:00.002000093,0,0,grep -q /mrinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19044,19046,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19043,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /mtrace$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19049,19051,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19048,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /netprint$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19054,19056,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19053,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /newgrp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19059,19061,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19058,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /ntfs-3g$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19064,19066,cut,0.003999948501586914,0 days 00:00:00.003999948,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19063,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /passwd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19069,19071,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19068,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /pkexec$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19074,19076,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19073,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /pppd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19079,19081,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19078,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /pt_chown$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19084,19086,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19083,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /pulseaudio$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19089,19091,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19088,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /rcp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19094,19096,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19093,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /rdist$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19099,19101,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19098,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /rsh$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19104,19106,cut,0.00599980354309082,0 days 00:00:00.005999804,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19103,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /screen$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19109,19111,cut,0.00599980354309082,0 days 00:00:00.005999803,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19108,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /sdtcm_convert$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19114,19116,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19113,grep,0.0029997825622558594,0 days 00:00:00.002999783,0,0,grep -q /sendmail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19119,19121,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19118,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /snap-confine$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19124,19126,cut,0.0070002079010009766,0 days 00:00:00.007000208,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19123,grep,0.0029997825622558594,0 days 00:00:00.002999783,0,0,grep -q /sudo
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19129,19131,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19128,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /Serv-U
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19134,19136,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19133,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /sudoedit$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19139,19141,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19138,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /tmux$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19144,19146,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19143,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /traceroute$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19149,19151,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19148,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /ubuntu-core-launcher$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19154,19156,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19153,grep,0.002000093460083008,0 days 00:00:00.002000093,0,0,grep -q /umount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19159,19161,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19158,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /umount-loop$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19164,19166,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19163,grep,0.003000020980834961,0 days 00:00:00.003000022,0,0,grep -q /uucp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19169,19171,cut,0.006000041961669922,0 days 00:00:00.006000041,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19168,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /XFree86$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19174,19176,cut,0.003999948501586914,0 days 00:00:00.003999949,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19173,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /xlock$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19179,19181,cut,0.003999948501586914,0 days 00:00:00.003999949,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19178,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /xscreensaver
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19184,19186,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19183,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /xorg$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19189,19191,cut,0.003000020980834961,0 days 00:00:00.003000021,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19188,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /xterm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19193,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -qE /abuild-sudo$|/accton$|/allocate$|/ARDAgent$|/arping$|/atq$|/atrm$|/authpf$|/authpf-noip$|/authopen$|/batch$|/bbsuid$|/
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19195,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -qE /gnome-pty-helper$|/glines$|/gnibbles$|/gnobots2$|/gnome-suspend$|/gnometris$|/gnomine$|/gnotski$|/gnotravex$|/gpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19197,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -qE /ncsa_auth$|/netpr$|/netkit-rcp$|/netkit-rlogin$|/netkit-rsh$|/netreport$|/netstat$|/newgidmap$|/newtask$|/newuidmap$|/
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19200,sed,0.003999948501586914,0 days 00:00:00.003999948,0,0,"sed -E s,/gnome-pty-helper$|/glines$|/gnibbles$|/gnobots2$|/gnome-suspend$|/gnometris$|/gnomine$|/gnotski$|/gnotravex$|/gpasswd$"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19201,sed,0.003000020980834961,0 days 00:00:00.003000021,0,0,"sed -E s,/ncsa_auth$|/netpr$|/netkit-rcp$|/netkit-rlogin$|/netkit-rsh$|/netreport$|/netstat$|/newgidmap$|/newtask$|/newuidmap$|/"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19204,sed,0.003000020980834961,0 days 00:00:00.003000021,0,0,"sed -E s,/setfacl$|/setlock$|/shuf$|/slsh$|/socat$|/soelim$|/softlimit$|/sort$|/sqlite3$|/ss$|/ssh-agent$|/ssh-keygen$|/ssh-keys"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19203,sed,0.003999948501586914,0 days 00:00:00.003999949,0,0,"sed -E s,/aa-exec$|/ab$|/agetty$|/alpine$|/ar$|/aria2c$|/arj$|/arp$|/as$|/ascii-xfr$|/ash$|/aspell$|/atobm$|/awk$|/base32$|/base"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19199,sed,0.0,0 days 00:00:00,0,0,"sed -E s,/abuild-sudo$|/accton$|/allocate$|/ARDAgent$|/arping$|/atq$|/atrm$|/authpf$|/authpf-noip$|/authopen$|/batch$|/bbsuid$|/"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19202,sed,0.002000093460083008,0 days 00:00:00.002000093,0,0,"sed -E s,/telnetlogin$|/timedc$|/tip$|/top$|/traceroute6$|/traceroute6.iputils$|/trpt$|/tsoldtlabel$|/tsoljdslabel$|/tsolxagent$"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19205,ls,0.01399993896484375,0 days 00:00:00.013999939,0,0,ls -lahtr /usr/libexec/cockpit-session
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19207,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -qE ^total
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19208,19210,awk,0.003999948501586914,0 days 00:00:00.003999949,0,0,awk {print $9}
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19213,19215,cut,0.03900003433227539,0 days 00:00:00.039000034,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19212,grep,0.009000062942504883,0 days 00:00:00.009000063,0,0,grep -q /apache2$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19218,19220,cut,0.01399993896484375,0 days 00:00:00.013999939,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19217,grep,0.009999990463256836,0 days 00:00:00.009999990,0,0,grep -q /at$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19223,19225,cut,0.018000125885009766,0 days 00:00:00.018000126,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19222,grep,0.023000001907348633,0 days 00:00:00.023000002,0,0,grep -q /abrt-action-install-debuginfo-to-abrt-cache$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19228,19230,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19227,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q 7.1/Fedora22
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19233,19235,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19232,grep,0.00599980354309082,0 days 00:00:00.005999803,0,0,grep -q /chfn$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19238,19240,cut,0.009000062942504883,0 days 00:00:00.009000063,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19237,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /chkey$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19243,19245,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19242,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /chkperm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19248,19250,cut,0.009000062942504883,0 days 00:00:00.009000063,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19247,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /chpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19253,19255,cut,0.01399993896484375,0 days 00:00:00.013999939,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19252,grep,0.007999897003173828,0 days 00:00:00.007999897,0,0,grep -q 6.6\(CVE-2019-19726\)--OpenBSD_2.7_i386/OpenBSD_2.6_i386/OpenBSD_2.5_1999/08/06/OpenBSD_2.5_1998/05/28/FreeBSD_4.0-RELEA
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19258,19260,cut,0.021000146865844727,0 days 00:00:00.021000147,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19257,grep,0.008999824523925781,0 days 00:00:00.008999824,0,0,grep -q /chpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19263,19265,cut,0.01100015640258789,0 days 00:00:00.011000156,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19262,grep,0.007999897003173828,0 days 00:00:00.007999898,0,0,grep -q /dtappgather$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19268,19270,cut,0.009000062942504883,0 days 00:00:00.009000062,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19267,grep,0.009000062942504883,0 days 00:00:00.009000063,0,0,grep -q /dtprintinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19273,19275,cut,0.014999866485595703,0 days 00:00:00.014999867,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19272,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /dtsession$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19278,19280,cut,0.01399993896484375,0 days 00:00:00.013999939,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19277,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /eject$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19283,19285,cut,0.014999866485595703,0 days 00:00:00.014999867,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19282,grep,0.00800013542175293,0 days 00:00:00.008000135,0,0,grep -q /ibstat$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19288,19290,cut,0.01399993896484375,0 days 00:00:00.013999939,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19287,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -q /kcheckpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19293,19295,cut,0.011999845504760742,0 days 00:00:00.011999845,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19292,grep,0.006999969482421875,0 days 00:00:00.006999970,0,0,grep -q /kdesud$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19298,19300,cut,0.018000125885009766,0 days 00:00:00.018000125,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19297,grep,0.01399993896484375,0 days 00:00:00.013999939,0,0,grep -q /keybase-redirector
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19303,19305,cut,0.010999917984008789,0 days 00:00:00.010999918,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19302,grep,0.01100015640258789,0 days 00:00:00.011000157,0,0,grep -q /login$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19308,19310,cut,0.01399993896484375,0 days 00:00:00.013999939,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19307,grep,0.006999969482421875,0 days 00:00:00.006999969,0,0,grep -q /lpc$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19313,19315,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19312,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /lpr$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19318,19320,cut,0.003999948501586914,0 days 00:00:00.003999948,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19317,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /mail.local$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19323,19325,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19322,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /mount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19328,19330,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19327,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /movemail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19333,19335,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19332,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /mrinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19338,19340,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19337,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /mtrace$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19343,19345,cut,0.003999948501586914,0 days 00:00:00.003999949,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19342,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /netprint$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19348,19350,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19347,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /newgrp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19353,19355,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19352,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /ntfs-3g$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19358,19360,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19357,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /passwd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19363,19365,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19362,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /pkexec$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19368,19370,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19367,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -q /pppd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19373,19375,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19372,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /pt_chown$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19378,19380,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19377,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /pulseaudio$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19383,19385,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19382,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /rcp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19388,19390,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19387,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /rdist$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19393,19395,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19392,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /rsh$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19398,19400,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19397,grep,0.0019998550415039062,0 days 00:00:00.001999856,0,0,grep -q /screen$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19403,19405,cut,0.009000062942504883,0 days 00:00:00.009000062,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19402,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /sdtcm_convert$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19408,19410,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19407,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /sendmail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19413,19415,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19412,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /snap-confine$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19418,19420,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19417,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /sudo
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19423,19425,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19422,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /Serv-U
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19428,19430,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19427,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /sudoedit$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19433,19435,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19432,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /tmux$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19438,19440,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19437,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /traceroute$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19443,19445,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19442,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /ubuntu-core-launcher$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19448,19450,cut,0.003999948501586914,0 days 00:00:00.003999949,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19447,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /umount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19453,19455,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19452,grep,0.0009999275207519531,0 days 00:00:00.000999928,0,0,grep -q /umount-loop$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19458,19460,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19457,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /uucp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19463,19465,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19462,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /XFree86$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19468,19470,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19467,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /xlock$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19473,19475,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19472,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /xscreensaver
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19478,19480,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19477,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /xorg$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19483,19485,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19482,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /xterm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19487,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -qE /abuild-sudo$|/accton$|/allocate$|/ARDAgent$|/arping$|/atq$|/atrm$|/authpf$|/authpf-noip$|/authopen$|/batch$|/bbsuid$|/
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19489,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -qE /gnome-pty-helper$|/glines$|/gnibbles$|/gnobots2$|/gnome-suspend$|/gnometris$|/gnomine$|/gnotski$|/gnotravex$|/gpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19491,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -qE /ncsa_auth$|/netpr$|/netkit-rcp$|/netkit-rlogin$|/netkit-rsh$|/netreport$|/netstat$|/newgidmap$|/newtask$|/newuidmap$|/
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19493,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -qE /telnetlogin$|/timedc$|/tip$|/top$|/traceroute6$|/traceroute6.iputils$|/trpt$|/tsoldtlabel$|/tsoljdslabel$|/tsolxagent$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19495,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -qE /aa-exec$|/ab$|/agetty$|/alpine$|/ar$|/aria2c$|/arj$|/arp$|/as$|/ascii-xfr$|/ash$|/aspell$|/atobm$|/awk$|/base32$|/base
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19497,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -qE /setfacl$|/setlock$|/shuf$|/slsh$|/socat$|/soelim$|/softlimit$|/sort$|/sqlite3$|/ss$|/ssh-agent$|/ssh-keygen$|/ssh-keys
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19499,sed,0.005000114440917969,0 days 00:00:00.005000115,0,0,"sed -E s,/.*,%1b[1;31m&%1b[0m,"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19500,ls,0.003999948501586914,0 days 00:00:00.003999948,0,0,ls -lahtr /usr/libexec/sssd/krb5_child
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19502,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -qE ^total
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19503,19505,awk,0.00599980354309082,0 days 00:00:00.005999803,0,0,awk {print $9}
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19508,19510,cut,0.03600001335144043,0 days 00:00:00.036000014,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19507,grep,0.004000186920166016,0 days 00:00:00.004000186,0,0,grep -q /apache2$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19513,19515,cut,0.03699994087219238,0 days 00:00:00.036999941,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19512,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /at$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19518,19520,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19517,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /abrt-action-install-debuginfo-to-abrt-cache$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19523,19525,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19522,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q 7.1/Fedora22
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19528,19530,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19527,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /chfn$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19533,19535,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19532,grep,0.0019998550415039062,0 days 00:00:00.001999855,0,0,grep -q /chkey$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19538,19540,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19537,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /chkperm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19543,19545,cut,0.003999948501586914,0 days 00:00:00.003999948,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19542,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /chpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19548,19550,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19547,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q 6.6\(CVE-2019-19726\)--OpenBSD_2.7_i386/OpenBSD_2.6_i386/OpenBSD_2.5_1999/08/06/OpenBSD_2.5_1998/05/28/FreeBSD_4.0-RELEA
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19553,19555,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19552,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /chpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19558,19560,cut,0.003999948501586914,0 days 00:00:00.003999949,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19557,grep,0.004000186920166016,0 days 00:00:00.004000186,0,0,grep -q /dtappgather$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19563,19565,cut,0.003999948501586914,0 days 00:00:00.003999949,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19562,grep,0.006999969482421875,0 days 00:00:00.006999969,0,0,grep -q /dtprintinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19568,19570,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19567,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /dtsession$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19573,19575,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19572,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /eject$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19578,19580,cut,0.00800013542175293,0 days 00:00:00.008000135,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19577,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /ibstat$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19583,19585,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19582,grep,0.008999824523925781,0 days 00:00:00.008999824,0,0,grep -q /kcheckpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19588,19590,cut,0.00800013542175293,0 days 00:00:00.008000136,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19587,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /kdesud$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19593,19595,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19592,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /keybase-redirector
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19598,19600,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19597,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /login$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19603,19605,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19602,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /lpc$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19608,19610,cut,0.009000062942504883,0 days 00:00:00.009000063,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19607,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /lpr$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19613,19615,cut,0.010999917984008789,0 days 00:00:00.010999918,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19612,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /mail.local$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19618,19620,cut,0.013000011444091797,0 days 00:00:00.013000011,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19617,grep,0.006999969482421875,0 days 00:00:00.006999970,0,0,grep -q /mount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19623,19625,cut,0.009000062942504883,0 days 00:00:00.009000063,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19622,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /movemail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19628,19630,cut,0.009000062942504883,0 days 00:00:00.009000063,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19627,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /mrinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19633,19635,cut,0.012000083923339844,0 days 00:00:00.012000084,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19632,grep,0.008999824523925781,0 days 00:00:00.008999824,0,0,grep -q /mtrace$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19638,19640,cut,0.01100015640258789,0 days 00:00:00.011000157,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19637,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /netprint$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19643,19645,cut,0.015999794006347656,0 days 00:00:00.015999794,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19642,grep,0.004000186920166016,0 days 00:00:00.004000186,0,0,grep -q /newgrp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19648,19650,cut,0.008999824523925781,0 days 00:00:00.008999825,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19647,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /ntfs-3g$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19653,19655,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19652,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /passwd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19658,19660,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19657,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /pkexec$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19663,19665,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19662,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /pppd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19668,19670,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19667,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /pt_chown$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19673,19675,cut,0.010999917984008789,0 days 00:00:00.010999918,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19672,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /pulseaudio$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19678,19680,cut,0.013000011444091797,0 days 00:00:00.013000011,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19677,grep,0.009000062942504883,0 days 00:00:00.009000063,0,0,grep -q /rcp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19683,19685,cut,0.00800013542175293,0 days 00:00:00.008000136,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19682,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /rdist$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19688,19690,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19687,grep,0.006999969482421875,0 days 00:00:00.006999970,0,0,grep -q /rsh$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19693,19695,cut,0.015000104904174805,0 days 00:00:00.015000104,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19692,grep,0.009000062942504883,0 days 00:00:00.009000063,0,0,grep -q /screen$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19698,19700,cut,0.014999866485595703,0 days 00:00:00.014999867,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19697,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /sdtcm_convert$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19703,19705,cut,0.009999990463256836,0 days 00:00:00.009999990,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19702,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /sendmail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19708,19710,cut,0.010999917984008789,0 days 00:00:00.010999918,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19707,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /snap-confine$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19713,19715,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19712,grep,0.002000093460083008,0 days 00:00:00.002000093,0,0,grep -q /sudo
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19718,19720,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19717,grep,0.0009999275207519531,0 days 00:00:00.000999928,0,0,grep -q /Serv-U
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19723,19725,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19722,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /sudoedit$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19728,19730,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19727,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /tmux$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19733,19735,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19732,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /traceroute$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19738,19740,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19737,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /ubuntu-core-launcher$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19743,19745,cut,0.00599980354309082,0 days 00:00:00.005999804,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19742,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /umount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19748,19750,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19747,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /umount-loop$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19753,19755,cut,0.00599980354309082,0 days 00:00:00.005999804,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19752,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /uucp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19758,19760,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19757,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /XFree86$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19763,19765,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19762,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /xlock$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19768,19770,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19767,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /xscreensaver
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19773,19775,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19772,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /xorg$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19778,19780,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19777,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /xterm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19782,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -qE /abuild-sudo$|/accton$|/allocate$|/ARDAgent$|/arping$|/atq$|/atrm$|/authpf$|/authpf-noip$|/authopen$|/batch$|/bbsuid$|/
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19784,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -qE /gnome-pty-helper$|/glines$|/gnibbles$|/gnobots2$|/gnome-suspend$|/gnometris$|/gnomine$|/gnotski$|/gnotravex$|/gpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19786,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -qE /ncsa_auth$|/netpr$|/netkit-rcp$|/netkit-rlogin$|/netkit-rsh$|/netreport$|/netstat$|/newgidmap$|/newtask$|/newuidmap$|/
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19788,grep,0.00599980354309082,0 days 00:00:00.005999804,0,0,grep -qE /telnetlogin$|/timedc$|/tip$|/top$|/traceroute6$|/traceroute6.iputils$|/trpt$|/tsoldtlabel$|/tsoljdslabel$|/tsolxagent$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19790,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -qE /aa-exec$|/ab$|/agetty$|/alpine$|/ar$|/aria2c$|/arj$|/arp$|/as$|/ascii-xfr$|/ash$|/aspell$|/atobm$|/awk$|/base32$|/base
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19792,grep,0.006999969482421875,0 days 00:00:00.006999970,0,0,grep -qE /setfacl$|/setlock$|/shuf$|/slsh$|/socat$|/soelim$|/softlimit$|/sort$|/sqlite3$|/ss$|/ssh-agent$|/ssh-keygen$|/ssh-keys
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19794,sed,0.006000041961669922,0 days 00:00:00.006000042,0,0,"sed -E s,/.*,%1b[1;31m&%1b[0m,"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19795,ls,0.003999948501586914,0 days 00:00:00.003999948,0,0,ls -lahtr /usr/libexec/sssd/ldap_child
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19797,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -qE ^total
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19798,19800,awk,0.005000114440917969,0 days 00:00:00.005000114,0,0,awk {print $9}
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19803,19805,cut,0.04900002479553223,0 days 00:00:00.049000026,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19802,grep,0.0019998550415039062,0 days 00:00:00.001999855,0,0,grep -q /apache2$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19808,19810,cut,0.009999990463256836,0 days 00:00:00.009999990,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19807,grep,0.00800013542175293,0 days 00:00:00.008000136,0,0,grep -q /at$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19813,19815,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19812,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /abrt-action-install-debuginfo-to-abrt-cache$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19818,19820,cut,0.012000083923339844,0 days 00:00:00.012000084,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19817,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q 7.1/Fedora22
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19823,19825,cut,0.00800013542175293,0 days 00:00:00.008000135,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19822,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /chfn$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19828,19830,cut,0.006000041961669922,0 days 00:00:00.006000041,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19827,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /chkey$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19833,19835,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19832,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /chkperm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19838,19840,cut,0.00599980354309082,0 days 00:00:00.005999803,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19837,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -q /chpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19843,19845,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19842,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q 6.6\(CVE-2019-19726\)--OpenBSD_2.7_i386/OpenBSD_2.6_i386/OpenBSD_2.5_1999/08/06/OpenBSD_2.5_1998/05/28/FreeBSD_4.0-RELEA
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19848,19850,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19847,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /chpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19853,19855,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19852,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /dtappgather$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19858,19860,cut,0.00800013542175293,0 days 00:00:00.008000136,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19857,grep,0.0029997825622558594,0 days 00:00:00.002999782,0,0,grep -q /dtprintinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19863,19865,cut,0.00800013542175293,0 days 00:00:00.008000136,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19862,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /dtsession$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19868,19870,cut,0.003999948501586914,0 days 00:00:00.003999949,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19867,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /eject$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19873,19875,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19872,grep,0.002000093460083008,0 days 00:00:00.002000093,0,0,grep -q /ibstat$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19878,19880,cut,0.00599980354309082,0 days 00:00:00.005999804,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19877,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /kcheckpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19883,19885,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19882,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /kdesud$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19888,19890,cut,0.003999948501586914,0 days 00:00:00.003999949,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19887,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /keybase-redirector
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19893,19895,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19892,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /login$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19898,19900,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19897,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /lpc$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19903,19905,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19902,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /lpr$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19908,19910,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19907,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /mail.local$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19913,19915,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19912,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /mount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19918,19920,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19917,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /movemail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19923,19925,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19922,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /mrinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19928,19930,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19927,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /mtrace$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19933,19935,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19932,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /netprint$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19938,19940,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19937,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /newgrp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19943,19945,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19942,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -q /ntfs-3g$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19948,19950,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19947,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /passwd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19953,19955,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19952,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /pkexec$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19958,19960,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19957,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /pppd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19963,19965,cut,0.00800013542175293,0 days 00:00:00.008000135,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19962,grep,0.0019998550415039062,0 days 00:00:00.001999855,0,0,grep -q /pt_chown$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19968,19970,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19967,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /pulseaudio$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19973,19975,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19972,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /rcp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19978,19980,cut,0.009000062942504883,0 days 00:00:00.009000063,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19977,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /rdist$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19983,19985,cut,0.009999990463256836,0 days 00:00:00.009999991,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19982,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /rsh$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19988,19990,cut,0.00599980354309082,0 days 00:00:00.005999804,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19987,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /screen$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19993,19995,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19992,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /sdtcm_convert$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,19998,20000,cut,0.009999990463256836,0 days 00:00:00.009999991,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,19997,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /sendmail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20003,20005,cut,0.009999990463256836,0 days 00:00:00.009999990,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20002,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /snap-confine$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20008,20010,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20007,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /sudo
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20013,20015,cut,0.010999917984008789,0 days 00:00:00.010999918,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20012,grep,0.00800013542175293,0 days 00:00:00.008000135,0,0,grep -q /Serv-U
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20018,20020,cut,0.01399993896484375,0 days 00:00:00.013999939,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20017,grep,0.013000011444091797,0 days 00:00:00.013000012,0,0,grep -q /sudoedit$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20023,20025,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20022,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /tmux$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20028,20030,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20027,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /traceroute$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20033,20035,cut,0.015000104904174805,0 days 00:00:00.015000105,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20032,grep,0.01399993896484375,0 days 00:00:00.013999939,0,0,grep -q /ubuntu-core-launcher$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20038,20040,cut,0.01399993896484375,0 days 00:00:00.013999939,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20037,grep,0.0070002079010009766,0 days 00:00:00.007000207,0,0,grep -q /umount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20043,20045,cut,0.014999866485595703,0 days 00:00:00.014999867,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20042,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /umount-loop$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20048,20050,cut,0.010999917984008789,0 days 00:00:00.010999918,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20047,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /uucp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20053,20055,cut,0.01699995994567871,0 days 00:00:00.016999960,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20052,grep,0.010999917984008789,0 days 00:00:00.010999918,0,0,grep -q /XFree86$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20058,20060,cut,0.016000032424926758,0 days 00:00:00.016000033,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20057,grep,0.015000104904174805,0 days 00:00:00.015000105,0,0,grep -q /xlock$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20063,20065,cut,0.01699995994567871,0 days 00:00:00.016999960,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20062,grep,0.015000104904174805,0 days 00:00:00.015000104,0,0,grep -q /xscreensaver
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20068,20070,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20067,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /xorg$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20073,20075,cut,0.009000062942504883,0 days 00:00:00.009000063,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20072,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /xterm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20077,grep,0.008999824523925781,0 days 00:00:00.008999824,0,0,grep -qE /abuild-sudo$|/accton$|/allocate$|/ARDAgent$|/arping$|/atq$|/atrm$|/authpf$|/authpf-noip$|/authopen$|/batch$|/bbsuid$|/
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20079,grep,0.010000228881835938,0 days 00:00:00.010000229,0,0,grep -qE /gnome-pty-helper$|/glines$|/gnibbles$|/gnobots2$|/gnome-suspend$|/gnometris$|/gnomine$|/gnotski$|/gnotravex$|/gpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20081,grep,0.012999773025512695,0 days 00:00:00.012999773,0,0,grep -qE /ncsa_auth$|/netpr$|/netkit-rcp$|/netkit-rlogin$|/netkit-rsh$|/netreport$|/netstat$|/newgidmap$|/newtask$|/newuidmap$|/
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20083,grep,0.01100015640258789,0 days 00:00:00.011000157,0,0,grep -qE /telnetlogin$|/timedc$|/tip$|/top$|/traceroute6$|/traceroute6.iputils$|/trpt$|/tsoldtlabel$|/tsoljdslabel$|/tsolxagent$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20085,grep,0.01399993896484375,0 days 00:00:00.013999939,0,0,grep -qE /aa-exec$|/ab$|/agetty$|/alpine$|/ar$|/aria2c$|/arj$|/arp$|/as$|/ascii-xfr$|/ash$|/aspell$|/atobm$|/awk$|/base32$|/base
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20087,grep,0.016000032424926758,0 days 00:00:00.016000032,0,0,grep -qE /setfacl$|/setlock$|/shuf$|/slsh$|/socat$|/soelim$|/softlimit$|/sort$|/sqlite3$|/ss$|/ssh-agent$|/ssh-keygen$|/ssh-keys
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20089,sed,0.009999990463256836,0 days 00:00:00.009999991,0,0,"sed -E s,/.*,%1b[1;31m&%1b[0m,"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20090,ls,0.006000041961669922,0 days 00:00:00.006000041,0,0,ls -lahtr /usr/libexec/sssd/proxy_child
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20092,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -qE ^total
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20093,20095,awk,0.004999876022338867,0 days 00:00:00.004999876,0,0,awk {print $9}
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20098,20100,cut,0.009000062942504883,0 days 00:00:00.009000063,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20097,grep,0.012000083923339844,0 days 00:00:00.012000084,0,0,grep -q /apache2$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20103,20105,cut,0.01699995994567871,0 days 00:00:00.016999960,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20102,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /at$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20108,20110,cut,0.018000125885009766,0 days 00:00:00.018000126,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20107,grep,0.007999897003173828,0 days 00:00:00.007999897,0,0,grep -q /abrt-action-install-debuginfo-to-abrt-cache$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20113,20115,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20112,grep,0.019999980926513672,0 days 00:00:00.019999981,0,0,grep -q 7.1/Fedora22
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20118,20120,cut,0.01100015640258789,0 days 00:00:00.011000156,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20117,grep,0.0019998550415039062,0 days 00:00:00.001999855,0,0,grep -q /chfn$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20123,20125,cut,0.018000125885009766,0 days 00:00:00.018000126,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20122,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /chkey$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20128,20130,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20127,grep,0.002000093460083008,0 days 00:00:00.002000093,0,0,grep -q /chkperm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20133,20135,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20132,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /chpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20138,20140,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20137,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q 6.6\(CVE-2019-19726\)--OpenBSD_2.7_i386/OpenBSD_2.6_i386/OpenBSD_2.5_1999/08/06/OpenBSD_2.5_1998/05/28/FreeBSD_4.0-RELEA
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20143,20145,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20142,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /chpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20148,20150,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20147,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /dtappgather$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20153,20155,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20152,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /dtprintinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20158,20160,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20157,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /dtsession$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20163,20165,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20162,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /eject$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20168,20170,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20167,grep,0.0019998550415039062,0 days 00:00:00.001999855,0,0,grep -q /ibstat$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20173,20175,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20172,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /kcheckpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20178,20180,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20177,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /kdesud$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20183,20185,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20182,grep,0.002000093460083008,0 days 00:00:00.002000093,0,0,grep -q /keybase-redirector
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20188,20190,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20187,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /login$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20193,20195,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20192,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /lpc$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20198,20200,cut,0.003999948501586914,0 days 00:00:00.003999949,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20197,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /lpr$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20203,20205,cut,0.00599980354309082,0 days 00:00:00.005999803,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20202,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /mail.local$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20208,20210,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20207,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -q /mount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20213,20215,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20212,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /movemail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20218,20220,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20217,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /mrinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20223,20225,cut,0.0070002079010009766,0 days 00:00:00.007000208,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20222,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /mtrace$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20228,20230,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20227,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /netprint$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20233,20235,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20232,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /newgrp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20238,20240,cut,0.004000186920166016,0 days 00:00:00.004000187,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20237,grep,0.0029997825622558594,0 days 00:00:00.002999782,0,0,grep -q /ntfs-3g$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20243,20245,cut,0.0070002079010009766,0 days 00:00:00.007000208,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20242,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /passwd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20248,20250,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20247,grep,0.002000093460083008,0 days 00:00:00.002000094,0,0,grep -q /pkexec$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20253,20255,cut,0.00599980354309082,0 days 00:00:00.005999804,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20252,grep,0.003000020980834961,0 days 00:00:00.003000020,0,0,grep -q /pppd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20258,20260,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20257,grep,0.003000020980834961,0 days 00:00:00.003000022,0,0,grep -q /pt_chown$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20263,20265,cut,0.007999897003173828,0 days 00:00:00.007999896,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20262,grep,0.003000020980834961,0 days 00:00:00.003000022,0,0,grep -q /pulseaudio$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20268,20270,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20267,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /rcp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20273,20275,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20272,grep,0.0019998550415039062,0 days 00:00:00.001999855,0,0,grep -q /rdist$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20278,20280,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20277,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /rsh$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20283,20285,cut,0.00599980354309082,0 days 00:00:00.005999803,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20282,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /screen$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20288,20290,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20287,grep,0.0019998550415039062,0 days 00:00:00.001999855,0,0,grep -q /sdtcm_convert$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20293,20295,cut,0.0070002079010009766,0 days 00:00:00.007000208,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20292,grep,0.0029997825622558594,0 days 00:00:00.002999782,0,0,grep -q /sendmail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20298,20300,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20297,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /snap-confine$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20303,20305,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20302,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /sudo
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20308,20310,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20307,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /Serv-U
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20313,20315,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20312,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /sudoedit$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20318,20320,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20317,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /tmux$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20323,20325,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20322,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /traceroute$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20328,20330,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20327,grep,0.002000093460083008,0 days 00:00:00.002000093,0,0,grep -q /ubuntu-core-launcher$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20333,20335,cut,0.00599980354309082,0 days 00:00:00.005999804,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20332,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /umount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20338,20340,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20337,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /umount-loop$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20343,20345,cut,0.00800013542175293,0 days 00:00:00.008000136,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20342,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /uucp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20348,20350,cut,0.013000011444091797,0 days 00:00:00.013000011,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20347,grep,0.007999897003173828,0 days 00:00:00.007999897,0,0,grep -q /XFree86$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20353,20355,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20352,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /xlock$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20358,20360,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20357,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /xscreensaver
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20363,20365,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20362,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /xorg$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20368,20370,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20367,grep,0.00800013542175293,0 days 00:00:00.008000135,0,0,grep -q /xterm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20372,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -qE /abuild-sudo$|/accton$|/allocate$|/ARDAgent$|/arping$|/atq$|/atrm$|/authpf$|/authpf-noip$|/authopen$|/batch$|/bbsuid$|/
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20374,grep,0.010999917984008789,0 days 00:00:00.010999918,0,0,grep -qE /gnome-pty-helper$|/glines$|/gnibbles$|/gnobots2$|/gnome-suspend$|/gnometris$|/gnomine$|/gnotski$|/gnotravex$|/gpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20376,grep,0.013000011444091797,0 days 00:00:00.013000011,0,0,grep -qE /ncsa_auth$|/netpr$|/netkit-rcp$|/netkit-rlogin$|/netkit-rsh$|/netreport$|/netstat$|/newgidmap$|/newtask$|/newuidmap$|/
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20378,grep,0.013000011444091797,0 days 00:00:00.013000012,0,0,grep -qE /telnetlogin$|/timedc$|/tip$|/top$|/traceroute6$|/traceroute6.iputils$|/trpt$|/tsoldtlabel$|/tsoljdslabel$|/tsolxagent$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20380,grep,0.012000083923339844,0 days 00:00:00.012000084,0,0,grep -qE /aa-exec$|/ab$|/agetty$|/alpine$|/ar$|/aria2c$|/arj$|/arp$|/as$|/ascii-xfr$|/ash$|/aspell$|/atobm$|/awk$|/base32$|/base
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20382,grep,0.007999897003173828,0 days 00:00:00.007999897,0,0,grep -qE /setfacl$|/setlock$|/shuf$|/slsh$|/socat$|/soelim$|/softlimit$|/sort$|/sqlite3$|/ss$|/ssh-agent$|/ssh-keygen$|/ssh-keys
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20384,sed,0.009999990463256836,0 days 00:00:00.009999990,0,0,"sed -E s,/.*,%1b[1;31m&%1b[0m,"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20385,ls,0.006000041961669922,0 days 00:00:00.006000042,0,0,ls -lahtr /usr/libexec/sssd/selinux_child
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20387,grep,0.007999897003173828,0 days 00:00:00.007999897,0,0,grep -qE ^total
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20388,20390,awk,0.005000114440917969,0 days 00:00:00.005000115,0,0,awk {print $9}
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20393,20395,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20392,grep,0.012000083923339844,0 days 00:00:00.012000084,0,0,grep -q /apache2$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20398,20400,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20397,grep,0.007999897003173828,0 days 00:00:00.007999898,0,0,grep -q /at$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20403,20405,cut,0.003999948501586914,0 days 00:00:00.003999948,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20402,grep,0.009000062942504883,0 days 00:00:00.009000063,0,0,grep -q /abrt-action-install-debuginfo-to-abrt-cache$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20408,20410,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20407,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q 7.1/Fedora22
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20413,20415,cut,0.0019998550415039062,0 days 00:00:00.001999855,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20412,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -q /chfn$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20418,20420,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20417,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /chkey$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20423,20425,cut,0.012000083923339844,0 days 00:00:00.012000084,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20422,grep,0.006999969482421875,0 days 00:00:00.006999969,0,0,grep -q /chkperm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20428,20430,cut,0.009999990463256836,0 days 00:00:00.009999991,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20427,grep,0.037999868392944336,0 days 00:00:00.037999868,0,0,grep -q /chpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20433,20435,cut,0.015000104904174805,0 days 00:00:00.015000105,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20432,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q 6.6\(CVE-2019-19726\)--OpenBSD_2.7_i386/OpenBSD_2.6_i386/OpenBSD_2.5_1999/08/06/OpenBSD_2.5_1998/05/28/FreeBSD_4.0-RELEA
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20438,20440,cut,0.010999917984008789,0 days 00:00:00.010999918,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20437,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /chpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20443,20445,cut,0.015000104904174805,0 days 00:00:00.015000105,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20442,grep,0.014999866485595703,0 days 00:00:00.014999867,0,0,grep -q /dtappgather$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20448,20450,cut,0.014000177383422852,0 days 00:00:00.014000177,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20447,grep,0.010999917984008789,0 days 00:00:00.010999918,0,0,grep -q /dtprintinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20453,20455,cut,0.01399993896484375,0 days 00:00:00.013999939,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20452,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -q /dtsession$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20458,20460,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20457,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /eject$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20463,20465,cut,0.009000062942504883,0 days 00:00:00.009000063,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20462,grep,0.0029997825622558594,0 days 00:00:00.002999783,0,0,grep -q /ibstat$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20468,20470,cut,0.009000062942504883,0 days 00:00:00.009000063,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20467,grep,0.006000041961669922,0 days 00:00:00.006000041,0,0,grep -q /kcheckpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20473,20475,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20472,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /kdesud$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20478,20480,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20477,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /keybase-redirector
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20483,20485,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20482,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /login$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20488,20490,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20487,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /lpc$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20493,20495,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20492,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /lpr$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20498,20500,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20497,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /mail.local$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20503,20505,cut,0.004000186920166016,0 days 00:00:00.004000187,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20502,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /mount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20508,20510,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20507,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /movemail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20513,20515,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20512,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /mrinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20518,20520,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20517,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /mtrace$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20523,20525,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20522,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /netprint$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20528,20530,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20527,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /newgrp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20533,20535,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20532,grep,0.004999876022338867,0 days 00:00:00.004999875,0,0,grep -q /ntfs-3g$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20538,20540,cut,0.006000041961669922,0 days 00:00:00.006000043,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20537,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /passwd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20543,20545,cut,0.004000186920166016,0 days 00:00:00.004000187,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20542,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /pkexec$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20548,20550,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20547,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /pppd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20553,20555,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20552,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /pt_chown$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20558,20560,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20557,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /pulseaudio$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20563,20565,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20562,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /rcp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20568,20570,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20567,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /rdist$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20573,20575,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20572,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /rsh$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20578,20580,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20577,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /screen$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20583,20585,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20582,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /sdtcm_convert$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20588,20590,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20587,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /sendmail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20593,20595,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20592,grep,0.002000093460083008,0 days 00:00:00.002000093,0,0,grep -q /snap-confine$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20598,20600,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20597,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /sudo
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20603,20605,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20602,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /Serv-U
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20608,20610,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20607,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /sudoedit$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20613,20615,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20612,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /tmux$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20618,20620,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20617,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /traceroute$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20623,20625,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20622,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /ubuntu-core-launcher$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20628,20630,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20627,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /umount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20633,20635,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20632,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /umount-loop$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20638,20640,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20637,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /uucp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20643,20645,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20642,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /XFree86$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20648,20650,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20647,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /xlock$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20653,20655,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20652,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /xscreensaver
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20658,20660,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20657,grep,0.005000114440917969,0 days 00:00:00.005000113,0,0,grep -q /xorg$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20663,20665,cut,0.006000041961669922,0 days 00:00:00.006000043,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20662,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /xterm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20667,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -qE /abuild-sudo$|/accton$|/allocate$|/ARDAgent$|/arping$|/atq$|/atrm$|/authpf$|/authpf-noip$|/authopen$|/batch$|/bbsuid$|/
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20669,grep,0.006000041961669922,0 days 00:00:00.006000041,0,0,grep -qE /gnome-pty-helper$|/glines$|/gnibbles$|/gnobots2$|/gnome-suspend$|/gnometris$|/gnomine$|/gnotski$|/gnotravex$|/gpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20671,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -qE /ncsa_auth$|/netpr$|/netkit-rcp$|/netkit-rlogin$|/netkit-rsh$|/netreport$|/netstat$|/newgidmap$|/newtask$|/newuidmap$|/
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20673,grep,0.00599980354309082,0 days 00:00:00.005999804,0,0,grep -qE /telnetlogin$|/timedc$|/tip$|/top$|/traceroute6$|/traceroute6.iputils$|/trpt$|/tsoldtlabel$|/tsoljdslabel$|/tsolxagent$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20675,grep,0.004000186920166016,0 days 00:00:00.004000188,0,0,grep -qE /aa-exec$|/ab$|/agetty$|/alpine$|/ar$|/aria2c$|/arj$|/arp$|/as$|/ascii-xfr$|/ash$|/aspell$|/atobm$|/awk$|/base32$|/base
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20677,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -qE /setfacl$|/setlock$|/shuf$|/slsh$|/socat$|/soelim$|/softlimit$|/sort$|/sqlite3$|/ss$|/ssh-agent$|/ssh-keygen$|/ssh-keys
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20679,sed,0.006000041961669922,0 days 00:00:00.006000042,0,0,"sed -E s,/.*,%1b[1;31m&%1b[0m,"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20680,ls,0.003999948501586914,0 days 00:00:00.003999948,0,0,ls -lahtr /usr/libexec/dbus-1/dbus-daemon-launch-helper
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20682,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -qE ^total
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20683,20685,awk,0.003999948501586914,0 days 00:00:00.003999948,0,0,awk {print $9}
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20688,20690,cut,0.042999982833862305,0 days 00:00:00.042999983,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20687,grep,0.009000062942504883,0 days 00:00:00.009000063,0,0,grep -q /apache2$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20693,20695,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20692,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /at$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20698,20700,cut,0.00800013542175293,0 days 00:00:00.008000135,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20697,grep,0.023000001907348633,0 days 00:00:00.023000002,0,0,grep -q /abrt-action-install-debuginfo-to-abrt-cache$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20703,20705,cut,0.009999990463256836,0 days 00:00:00.009999990,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20702,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q 7.1/Fedora22
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20708,20710,cut,0.009999990463256836,0 days 00:00:00.009999990,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20707,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -q /chfn$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20713,20715,cut,0.008999824523925781,0 days 00:00:00.008999824,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20712,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -q /chkey$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20718,20720,cut,0.009999990463256836,0 days 00:00:00.009999990,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20717,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /chkperm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20723,20725,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20722,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -q /chpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20728,20730,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20727,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q 6.6\(CVE-2019-19726\)--OpenBSD_2.7_i386/OpenBSD_2.6_i386/OpenBSD_2.5_1999/08/06/OpenBSD_2.5_1998/05/28/FreeBSD_4.0-RELEA
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20733,20735,cut,0.00800013542175293,0 days 00:00:00.008000136,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20732,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /chpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20738,20740,cut,0.009000062942504883,0 days 00:00:00.009000062,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20737,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /dtappgather$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20743,20745,cut,0.012000083923339844,0 days 00:00:00.012000084,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20742,grep,0.008999824523925781,0 days 00:00:00.008999825,0,0,grep -q /dtprintinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20748,20750,cut,0.012000083923339844,0 days 00:00:00.012000084,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20747,grep,0.006999969482421875,0 days 00:00:00.006999969,0,0,grep -q /dtsession$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20753,20755,cut,0.009999990463256836,0 days 00:00:00.009999991,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20752,grep,0.009000062942504883,0 days 00:00:00.009000063,0,0,grep -q /eject$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20758,20760,cut,0.01399993896484375,0 days 00:00:00.013999939,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20757,grep,0.013000011444091797,0 days 00:00:00.013000011,0,0,grep -q /ibstat$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20763,20765,cut,0.010999917984008789,0 days 00:00:00.010999918,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20762,grep,0.009999990463256836,0 days 00:00:00.009999991,0,0,grep -q /kcheckpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20768,20770,cut,0.013000011444091797,0 days 00:00:00.013000011,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20767,grep,0.013000011444091797,0 days 00:00:00.013000011,0,0,grep -q /kdesud$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20773,20775,cut,0.017000198364257812,0 days 00:00:00.017000199,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20772,grep,0.019999980926513672,0 days 00:00:00.019999981,0,0,grep -q /keybase-redirector
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20778,20780,cut,0.020999908447265625,0 days 00:00:00.020999908,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20777,grep,0.013000011444091797,0 days 00:00:00.013000012,0,0,grep -q /login$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20783,20785,cut,0.017999887466430664,0 days 00:00:00.017999887,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20782,grep,0.01100015640258789,0 days 00:00:00.011000156,0,0,grep -q /lpc$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20788,20790,cut,0.016000032424926758,0 days 00:00:00.016000033,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20787,grep,0.011999845504760742,0 days 00:00:00.011999845,0,0,grep -q /lpr$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20793,20795,cut,0.009999990463256836,0 days 00:00:00.009999991,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20792,grep,0.009999990463256836,0 days 00:00:00.009999990,0,0,grep -q /mail.local$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20798,20800,cut,0.00800013542175293,0 days 00:00:00.008000136,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20797,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /mount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20803,20805,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20802,grep,0.003000020980834961,0 days 00:00:00.003000020,0,0,grep -q /movemail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20808,20810,cut,0.006999969482421875,0 days 00:00:00.006999971,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20807,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /mrinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20813,20815,cut,0.010999917984008789,0 days 00:00:00.010999918,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20812,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /mtrace$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20818,20820,cut,0.008999824523925781,0 days 00:00:00.008999825,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20817,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /netprint$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20823,20825,cut,0.008999824523925781,0 days 00:00:00.008999824,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20822,grep,0.009999990463256836,0 days 00:00:00.009999991,0,0,grep -q /newgrp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20828,20830,cut,0.014000177383422852,0 days 00:00:00.014000177,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20827,grep,0.00599980354309082,0 days 00:00:00.005999803,0,0,grep -q /ntfs-3g$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20833,20835,cut,0.009000062942504883,0 days 00:00:00.009000063,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20832,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -q /passwd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20838,20840,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20837,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /pkexec$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20843,20845,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20842,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /pppd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20848,20850,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20847,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /pt_chown$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20853,20855,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20852,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /pulseaudio$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20858,20860,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20857,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /rcp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20863,20865,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20862,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /rdist$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20868,20870,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20867,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /rsh$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20873,20875,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20872,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /screen$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20878,20880,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20877,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /sdtcm_convert$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20883,20885,cut,0.005000114440917969,0 days 00:00:00.005000113,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20882,grep,0.003000020980834961,0 days 00:00:00.003000022,0,0,grep -q /sendmail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20888,20890,cut,0.00599980354309082,0 days 00:00:00.005999804,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20887,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /snap-confine$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20893,20895,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20892,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /sudo
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20898,20900,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20897,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /Serv-U
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20903,20905,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20902,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /sudoedit$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20908,20910,cut,0.003999948501586914,0 days 00:00:00.003999949,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20907,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /tmux$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20913,20915,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20912,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /traceroute$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20918,20920,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20917,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /ubuntu-core-launcher$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20923,20925,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20922,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /umount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20928,20930,cut,0.00599980354309082,0 days 00:00:00.005999803,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20927,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /umount-loop$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20933,20935,cut,0.00599980354309082,0 days 00:00:00.005999804,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20932,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /uucp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20938,20940,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20937,grep,0.002000093460083008,0 days 00:00:00.002000093,0,0,grep -q /XFree86$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20943,20945,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20942,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /xlock$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20948,20950,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20947,grep,0.002000093460083008,0 days 00:00:00.002000093,0,0,grep -q /xscreensaver
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20953,20955,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20952,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /xorg$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20958,20960,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20957,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /xterm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20962,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -qE /abuild-sudo$|/accton$|/allocate$|/ARDAgent$|/arping$|/atq$|/atrm$|/authpf$|/authpf-noip$|/authopen$|/batch$|/bbsuid$|/
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20964,sed,0.004999876022338867,0 days 00:00:00.004999876,0,0,"sed -E s,/abuild-sudo$|/accton$|/allocate$|/ARDAgent$|/arping$|/atq$|/atrm$|/authpf$|/authpf-noip$|/authopen$|/batch$|/bbsuid$|/"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20967,sed,0.0,0 days 00:00:00,0,0,"sed -E s,/telnetlogin$|/timedc$|/tip$|/top$|/traceroute6$|/traceroute6.iputils$|/trpt$|/tsoldtlabel$|/tsoljdslabel$|/tsolxagent$"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20966,sed,0.003000020980834961,0 days 00:00:00.003000021,0,0,"sed -E s,/ncsa_auth$|/netpr$|/netkit-rcp$|/netkit-rlogin$|/netkit-rsh$|/netreport$|/netstat$|/newgidmap$|/newtask$|/newuidmap$|/"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20965,sed,0.003000020980834961,0 days 00:00:00.003000021,0,0,"sed -E s,/gnome-pty-helper$|/glines$|/gnibbles$|/gnobots2$|/gnome-suspend$|/gnometris$|/gnomine$|/gnotski$|/gnotravex$|/gpasswd$"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20968,sed,0.006999969482421875,0 days 00:00:00.006999969,0,0,"sed -E s,/aa-exec$|/ab$|/agetty$|/alpine$|/ar$|/aria2c$|/arj$|/arp$|/as$|/ascii-xfr$|/ash$|/aspell$|/atobm$|/awk$|/base32$|/base"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20969,sed,-0.0009999275207519531,-1 days +23:59:59.999000073,0,0,"sed -E s,/setfacl$|/setlock$|/shuf$|/slsh$|/socat$|/soelim$|/softlimit$|/sort$|/sqlite3$|/ss$|/ssh-agent$|/ssh-keygen$|/ssh-keys"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20970,ls,0.013000011444091797,0 days 00:00:00.013000011,0,0,ls -lahtr /usr/libexec/Xorg.wrap
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20972,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -qE ^total
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20973,20975,awk,0.006999969482421875,0 days 00:00:00.006999969,0,0,awk {print $9}
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20978,20980,cut,0.037999868392944336,0 days 00:00:00.037999869,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20977,grep,0.009000062942504883,0 days 00:00:00.009000063,0,0,grep -q /apache2$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20983,20985,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20982,grep,0.01900005340576172,0 days 00:00:00.019000053,0,0,grep -q /at$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20988,20990,cut,0.01699995994567871,0 days 00:00:00.016999960,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20987,grep,0.006999969482421875,0 days 00:00:00.006999970,0,0,grep -q /abrt-action-install-debuginfo-to-abrt-cache$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20993,20995,cut,0.00800013542175293,0 days 00:00:00.008000135,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20992,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q 7.1/Fedora22
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,20998,21000,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,20997,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /chfn$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21003,21005,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21002,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /chkey$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21008,21010,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21007,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /chkperm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21013,21015,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21012,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /chpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21018,21020,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21017,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q 6.6\(CVE-2019-19726\)--OpenBSD_2.7_i386/OpenBSD_2.6_i386/OpenBSD_2.5_1999/08/06/OpenBSD_2.5_1998/05/28/FreeBSD_4.0-RELEA
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21023,21025,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21022,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /chpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21028,21030,cut,0.0070002079010009766,0 days 00:00:00.007000208,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21027,grep,0.0019998550415039062,0 days 00:00:00.001999855,0,0,grep -q /dtappgather$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21033,21035,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21032,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /dtprintinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21038,21040,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21037,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -q /dtsession$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21043,21045,cut,0.00599980354309082,0 days 00:00:00.005999803,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21042,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /eject$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21048,21050,cut,0.00599980354309082,0 days 00:00:00.005999804,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21047,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /ibstat$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21053,21055,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21052,grep,0.00800013542175293,0 days 00:00:00.008000135,0,0,grep -q /kcheckpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21058,21060,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21057,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q /kdesud$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21063,21065,cut,0.00800013542175293,0 days 00:00:00.008000136,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21062,grep,0.006999969482421875,0 days 00:00:00.006999969,0,0,grep -q /keybase-redirector
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21068,21070,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21067,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /login$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21073,21075,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21072,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /lpc$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21078,21080,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21077,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /lpr$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21083,21085,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21082,grep,0.006999969482421875,0 days 00:00:00.006999970,0,0,grep -q /mail.local$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21088,21090,cut,0.00800013542175293,0 days 00:00:00.008000135,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21087,grep,0.009000062942504883,0 days 00:00:00.009000063,0,0,grep -q /mount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21093,21095,cut,0.008999824523925781,0 days 00:00:00.008999824,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21092,grep,0.006999969482421875,0 days 00:00:00.006999970,0,0,grep -q /movemail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21098,21100,cut,0.013000011444091797,0 days 00:00:00.013000011,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21097,grep,0.009000062942504883,0 days 00:00:00.009000063,0,0,grep -q /mrinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21103,21105,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21102,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /mtrace$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21108,21110,cut,0.012000083923339844,0 days 00:00:00.012000084,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21107,grep,0.00800013542175293,0 days 00:00:00.008000136,0,0,grep -q /netprint$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21113,21115,cut,0.01399993896484375,0 days 00:00:00.013999939,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21112,grep,0.006999969482421875,0 days 00:00:00.006999969,0,0,grep -q /newgrp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21118,21120,cut,0.019999980926513672,0 days 00:00:00.019999981,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21117,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /ntfs-3g$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21123,21125,cut,0.00800013542175293,0 days 00:00:00.008000135,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21122,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /passwd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21128,21130,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21127,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /pkexec$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21133,21135,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21132,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /pppd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21138,21140,cut,0.009999990463256836,0 days 00:00:00.009999991,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21137,grep,0.006999969482421875,0 days 00:00:00.006999969,0,0,grep -q /pt_chown$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21143,21145,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21142,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /pulseaudio$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21148,21150,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21147,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /rcp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21153,21155,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21152,grep,0.009000062942504883,0 days 00:00:00.009000063,0,0,grep -q /rdist$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21158,21160,cut,0.013000011444091797,0 days 00:00:00.013000011,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21157,grep,0.007999897003173828,0 days 00:00:00.007999897,0,0,grep -q /rsh$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21163,21165,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21162,grep,0.006000041961669922,0 days 00:00:00.006000042,0,0,grep -q /screen$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21168,21170,cut,0.01399993896484375,0 days 00:00:00.013999938,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21167,grep,0.009000062942504883,0 days 00:00:00.009000063,0,0,grep -q /sdtcm_convert$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21173,21175,cut,0.015000104904174805,0 days 00:00:00.015000105,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21172,grep,0.009000062942504883,0 days 00:00:00.009000063,0,0,grep -q /sendmail$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21178,21180,cut,0.011999845504760742,0 days 00:00:00.011999846,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21177,grep,0.012000083923339844,0 days 00:00:00.012000084,0,0,grep -q /snap-confine$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21183,21185,cut,0.010999917984008789,0 days 00:00:00.010999918,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21182,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /sudo
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21188,21190,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21187,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -q /Serv-U
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21193,21195,cut,0.00599980354309082,0 days 00:00:00.005999803,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21192,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /sudoedit$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21198,21200,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21197,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /tmux$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21203,21205,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21202,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /traceroute$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21208,21210,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21207,grep,0.0029997825622558594,0 days 00:00:00.002999782,0,0,grep -q /ubuntu-core-launcher$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21213,21215,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21212,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /umount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21218,21220,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21217,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /umount-loop$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21223,21225,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21222,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /uucp$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21228,21230,cut,0.005000114440917969,0 days 00:00:00.005000115,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21227,grep,0.002000093460083008,0 days 00:00:00.002000093,0,0,grep -q /XFree86$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21233,21235,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21232,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /xlock$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21238,21240,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21237,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /xscreensaver
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21243,21245,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21242,grep,0.0019998550415039062,0 days 00:00:00.001999855,0,0,grep -q /xorg$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21248,21250,cut,0.0070002079010009766,0 days 00:00:00.007000208,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21247,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /xterm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21252,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -qE /abuild-sudo$|/accton$|/allocate$|/ARDAgent$|/arping$|/atq$|/atrm$|/authpf$|/authpf-noip$|/authopen$|/batch$|/bbsuid$|/
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21254,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -qE /gnome-pty-helper$|/glines$|/gnibbles$|/gnobots2$|/gnome-suspend$|/gnometris$|/gnomine$|/gnotski$|/gnotravex$|/gpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21256,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -qE /ncsa_auth$|/netpr$|/netkit-rcp$|/netkit-rlogin$|/netkit-rsh$|/netreport$|/netstat$|/newgidmap$|/newtask$|/newuidmap$|/
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21258,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -qE /telnetlogin$|/timedc$|/tip$|/top$|/traceroute6$|/traceroute6.iputils$|/trpt$|/tsoldtlabel$|/tsoljdslabel$|/tsolxagent$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21262,sed,0.004999876022338867,0 days 00:00:00.004999876,0,0,"sed -E s,/ncsa_auth$|/netpr$|/netkit-rcp$|/netkit-rlogin$|/netkit-rsh$|/netreport$|/netstat$|/newgidmap$|/newtask$|/newuidmap$|/"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21263,sed,0.002000093460083008,0 days 00:00:00.002000094,0,0,"sed -E s,/telnetlogin$|/timedc$|/tip$|/top$|/traceroute6$|/traceroute6.iputils$|/trpt$|/tsoldtlabel$|/tsoljdslabel$|/tsolxagent$"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21265,sed,0.0,0 days 00:00:00,0,0,"sed -E s,/setfacl$|/setlock$|/shuf$|/slsh$|/socat$|/soelim$|/softlimit$|/sort$|/sqlite3$|/ss$|/ssh-agent$|/ssh-keygen$|/ssh-keys"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21264,sed,0.0,0 days 00:00:00,0,0,"sed -E s,/aa-exec$|/ab$|/agetty$|/alpine$|/ar$|/aria2c$|/arj$|/arp$|/as$|/ascii-xfr$|/ash$|/aspell$|/atobm$|/awk$|/base32$|/base"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21260,sed,0.005000114440917969,0 days 00:00:00.005000114,0,0,"sed -E s,/abuild-sudo$|/accton$|/allocate$|/ARDAgent$|/arping$|/atq$|/atrm$|/authpf$|/authpf-noip$|/authopen$|/batch$|/bbsuid$|/"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21261,sed,0.0,0 days 00:00:00,0,0,"sed -E s,/gnome-pty-helper$|/glines$|/gnibbles$|/gnobots2$|/gnome-suspend$|/gnometris$|/gnomine$|/gnotski$|/gnotravex$|/gpasswd$"
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21266,ls,0.013000011444091797,0 days 00:00:00.013000011,0,0,ls -lahtr /opt/VBoxGuestAdditions-7.0.18/bin/VBoxDRMClient
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21268,grep,0.006999969482421875,0 days 00:00:00.006999970,0,0,grep -qE ^total
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21269,21271,awk,0.003999948501586914,0 days 00:00:00.003999948,0,0,awk {print $9}
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21274,21276,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21273,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /apache2$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21279,21281,cut,0.007999897003173828,0 days 00:00:00.007999897,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21278,grep,0.002000093460083008,0 days 00:00:00.002000093,0,0,grep -q /at$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21284,21286,cut,0.003999948501586914,0 days 00:00:00.003999949,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21283,grep,0.013000011444091797,0 days 00:00:00.013000011,0,0,grep -q /abrt-action-install-debuginfo-to-abrt-cache$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21289,21291,cut,0.009000062942504883,0 days 00:00:00.009000063,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21288,grep,0.009999990463256836,0 days 00:00:00.009999991,0,0,grep -q 7.1/Fedora22
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21294,21296,cut,0.009999990463256836,0 days 00:00:00.009999990,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21293,grep,0.0009999275207519531,0 days 00:00:00.000999928,0,0,grep -q /chfn$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21299,21301,cut,0.01100015640258789,0 days 00:00:00.011000156,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21298,grep,0.011999845504760742,0 days 00:00:00.011999846,0,0,grep -q /chkey$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21304,21306,cut,0.009000062942504883,0 days 00:00:00.009000063,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21303,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /chkperm$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21309,21311,cut,0.01699995994567871,0 days 00:00:00.016999960,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21308,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /chpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21314,21316,cut,0.003999948501586914,0 days 00:00:00.003999948,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21313,grep,0.004999876022338867,0 days 00:00:00.004999876,0,0,grep -q 6.6\(CVE-2019-19726\)--OpenBSD_2.7_i386/OpenBSD_2.6_i386/OpenBSD_2.5_1999/08/06/OpenBSD_2.5_1998/05/28/FreeBSD_4.0-RELEA
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21319,21321,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21318,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /chpasswd$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21324,21326,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21323,grep,0.003999948501586914,0 days 00:00:00.003999948,0,0,grep -q /dtappgather$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21329,21331,cut,0.006999969482421875,0 days 00:00:00.006999970,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21328,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /dtprintinfo$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21334,21336,cut,0.00599980354309082,0 days 00:00:00.005999803,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21333,grep,0.005000114440917969,0 days 00:00:00.005000115,0,0,grep -q /dtsession$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21339,21341,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21338,grep,0.004000186920166016,0 days 00:00:00.004000187,0,0,grep -q /eject$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21344,21346,cut,0.006999969482421875,0 days 00:00:00.006999969,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21343,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /ibstat$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21349,21351,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21348,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /kcheckpass$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21354,21356,cut,0.004999876022338867,0 days 00:00:00.004999876,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21353,grep,0.005000114440917969,0 days 00:00:00.005000114,0,0,grep -q /kdesud$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21359,21361,cut,0.006000041961669922,0 days 00:00:00.006000042,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21358,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /keybase-redirector
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21364,21366,cut,0.006000041961669922,0 days 00:00:00.006000041,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21363,grep,0.003000020980834961,0 days 00:00:00.003000021,0,0,grep -q /login$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21369,21371,cut,0.00599980354309082,0 days 00:00:00.005999804,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21368,grep,0.002000093460083008,0 days 00:00:00.002000092,0,0,grep -q /lpc$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21374,21376,cut,0.006000041961669922,0 days 00:00:00.006000043,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21373,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /lpr$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21379,21381,cut,0.00800013542175293,0 days 00:00:00.008000134,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21378,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /mail.local$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21384,21386,cut,0.003999948501586914,0 days 00:00:00.003999949,0,0,cut -d %25 -f 1
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,3241,21383,grep,0.003999948501586914,0 days 00:00:00.003999949,0,0,grep -q /mount$
+/home/matteo/Desktop/priv_esc_scripts/linpeas,0,2,21389,21391,cut,0.005000114440917969,0 days 00:00:00.005000114,0,0,cut -d %25 -f 1
