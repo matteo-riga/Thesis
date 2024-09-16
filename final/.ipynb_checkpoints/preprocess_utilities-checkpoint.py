@@ -1,3 +1,5 @@
+import hashlib
+
 def count_directories(path):
     try:
         # Split the path into components
@@ -69,8 +71,8 @@ def encode_pid_to_8bit_binary_hash(pid):
 
 def preprocess(df, encoder):
     
-    # Select only common columns
-    cols = ['cwd', 'exit', 'items', 'ppid', 'pid', 'comm', 'timedelta', 'pid_timedelta', 'id_anomalies', 'num_id_anomalies']
+    # Select only common 
+    cols = ['cwd', 'exit', 'items', 'ppid', 'pid', 'comm', 'timedelta', 'id_anomalies', 'num_id_anomalies']
     df = df[cols]
 
     # convert times to numbers
