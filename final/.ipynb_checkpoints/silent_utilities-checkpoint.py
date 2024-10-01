@@ -1,3 +1,6 @@
+import re
+import json
+
 def read(fp):
     data_list = []
     lines_limit = 100000 # limit reading lines, done for memory constraints
