@@ -190,6 +190,110 @@ class TimeDependentDeepLearningAnomalyDetection:
         return model
 
 
+    def build_conv1d_model(self, input_shape, output_shape):
+        """
+        Builds a Conv1D model using TensorFlow/Keras that takes a 3D input and outputs a 3D output.
+        
+        Parameters:
+        input_shape (tuple): Shape of the input data (e.g., (200, 9)).
+        output_shape (tuple): Shape of the output data (e.g., (10, 9)).
+        
+        Returns:
+        model (tf.keras.Model): Compiled Conv1D model.
+        """
+        model = models.Sequential()
+        
+        # Input layer
+        model.add(layers.InputLayer(input_shape=input_shape))
+    
+        # Add Conv1D layers
+        model.add(layers.Conv1D(filters=128, kernel_size=3, padding='same', activation='relu'))  # Conv1D layer with 128 filters
+        model.add(layers.Conv1D(filters=64, kernel_size=3, padding='same', activation='relu'))   # Conv1D layer with 64 filters
+        
+        # Optional: Add pooling layers to downsample the temporal dimension
+        # model.add(layers.MaxPooling1D(pool_size=2))  # Optional: Max Pooling to reduce the sequence length
+    
+        # Add Conv1D layer with fewer filters to match the output dimension
+        model.add(layers.Conv1D(filters=output_shape[1], kernel_size=3, padding='same', activation='linear'))
+    
+        # Add Lambda layer to ensure the output matches the specified output_shape
+        model.add(layers.Lambda(lambda x: x[:, -output_shape[0]:, :]))
+    
+        # Compile the model
+        model.compile(optimizer='adam', loss='mse', metrics=['mae'])  # MSE for regression
+        
+        return model
+
+
+
+    def residual_block(x, filters, kernel_size=3, stride=1):
+        """
+        Residual block for ResNet, includes two Conv1D layers and a skip connection.
+    
+        Parameters:
+        x (Tensor): Input tensor
+        filters (int): Number of filters for the Conv1D layers
+        kernel_size (int): Size of the convolutional kernel
+        stride (int): Stride for the convolution
+        
+        Returns:
+        Tensor: Output tensor after applying residual block
+        """
+        shortcut = x  # Keep the original input for the residual connection
+    
+        # First convolution
+        x = layers.Conv1D(filters, kernel_size, strides=stride, padding='same')(x)
+        x = layers.BatchNormalization()(x)
+        x = layers.Activation('relu')(x)
+    
+        # Second convolution
+        x = layers.Conv1D(filters, kernel_size, strides=1, padding='same')(x)
+        x = layers.BatchNormalization()(x)
+    
+        # Check if input and output dimensions match, if not, apply a Conv1D (1x1) projection
+        if shortcut.shape[-1] != filters:
+            shortcut = layers.Conv1D(filters, kernel_size=1, strides=stride, padding='same')(shortcut)
+        
+        # Add the shortcut to the output
+        x = layers.add([x, shortcut])
+        x = layers.Activation('relu')(x)
+    
+        return x
+
+    def build_resnet_model(input_shape, output_shape, num_blocks=3):
+        """
+        Builds a ResNet-style 1D convolutional model using residual blocks.
+    
+        Parameters:
+        input_shape (tuple): Shape of the input data (e.g., (200, 9)).
+        output_shape (tuple): Shape of the output data (e.g., (10, 9)).
+        num_blocks (int): Number of residual blocks to stack.
+    
+        Returns:
+        model (tf.keras.Model): Compiled ResNet-style model.
+        """
+        inputs = layers.Input(shape=input_shape)
+    
+        # Initial Conv1D layer
+        x = layers.Conv1D(64, kernel_size=3, strides=1, padding='same', activation='relu')(inputs)
+    
+        # Add multiple residual blocks
+        for _ in range(num_blocks):
+            x = residual_block(x, filters=64)
+    
+        # Final convolution to match output shape
+        x = layers.Conv1D(output_shape[1], kernel_size=1, activation='linear')(x)
+    
+        # Use a Lambda layer to ensure output matches the required output length
+        outputs = layers.Lambda(lambda x: x[:, -output_shape[0]:, :])(x)
+    
+        # Compile the model
+        model = models.Model(inputs, outputs)
+        model.compile(optimizer='adam', loss='mse', metrics=['mae'])
+    
+        return model
+
+
     def build_transformer_model(self, input_shape, output_shape, num_heads=4, ff_dim=128, num_blocks=2):
         """
         Builds a Transformer model using TensorFlow/Keras.
@@ -314,6 +418,61 @@ class TimeDependentDeepLearningAnomalyDetection:
         output_shape = y_train.shape[1:]
 
         self.model = self.build_model(input_shape, output_shape)
+        self.model.summary()
+        self.fit(X_train, y_train)
+        y_pred, test_loss, test_mae = self.predict(X_test, y_test)
+
+        if verbose:
+            print(f"Test Loss: {test_loss}")
+            print(f"Test MAE: {test_mae}")
+        return test_loss, test_mae
+
+
+    
+    def detect_anomalies_1DCNN(self, df, verbose=0):
+        """
+        This method analyzes the data using the trained model.
+
+        Args:
+            df (pd.DataFrame): The dataframe containing the time series data.
+
+        Returns:
+            float: The mean squared error (MSE) of the predictions.
+        """
+        X_train, X_test, y_train, y_test = self.build_train_test_sets(df)
+
+        # Get input and output shapes for model building
+        input_shape = X_train.shape[1:]  # Exclude batch size dimension
+        output_shape = y_train.shape[1:]
+
+        self.model = self.build_conv1d_model(input_shape, output_shape)
+        self.model.summary()
+        self.fit(X_train, y_train)
+        y_pred, test_loss, test_mae = self.predict(X_test, y_test)
+
+        if verbose:
+            print(f"Test Loss: {test_loss}")
+            print(f"Test MAE: {test_mae}")
+        return test_loss, test_mae
+
+
+    def detect_anomalies_resnet(self, df, verbose=0):
+        """
+        This method analyzes the data using the trained model.
+
+        Args:
+            df (pd.DataFrame): The dataframe containing the time series data.
+
+        Returns:
+            float: The mean squared error (MSE) of the predictions.
+        """
+        X_train, X_test, y_train, y_test = self.build_train_test_sets(df)
+
+        # Get input and output shapes for model building
+        input_shape = X_train.shape[1:]  # Exclude batch size dimension
+        output_shape = y_train.shape[1:]
+
+        self.model = self.build_resnet(input_shape, output_shape)
         self.model.summary()
         self.fit(X_train, y_train)
         y_pred, test_loss, test_mae = self.predict(X_test, y_test)
