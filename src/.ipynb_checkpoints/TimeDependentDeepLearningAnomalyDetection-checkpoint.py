@@ -226,7 +226,7 @@ class TimeDependentDeepLearningAnomalyDetection:
 
 
 
-    def residual_block(x, filters, kernel_size=3, stride=1):
+    def residual_block(self, x, filters, kernel_size=3, stride=1):
         """
         Residual block for ResNet, includes two Conv1D layers and a skip connection.
     
@@ -260,7 +260,7 @@ class TimeDependentDeepLearningAnomalyDetection:
     
         return x
 
-    def build_resnet_model(input_shape, output_shape, num_blocks=3):
+    def build_resnet_model(self, input_shape, output_shape, num_blocks=3):
         """
         Builds a ResNet-style 1D convolutional model using residual blocks.
     
@@ -279,7 +279,7 @@ class TimeDependentDeepLearningAnomalyDetection:
     
         # Add multiple residual blocks
         for _ in range(num_blocks):
-            x = residual_block(x, filters=64)
+            x = self.residual_block(x, filters=64)
     
         # Final convolution to match output shape
         x = layers.Conv1D(output_shape[1], kernel_size=1, activation='linear')(x)
@@ -472,7 +472,7 @@ class TimeDependentDeepLearningAnomalyDetection:
         input_shape = X_train.shape[1:]  # Exclude batch size dimension
         output_shape = y_train.shape[1:]
 
-        self.model = self.build_resnet(input_shape, output_shape)
+        self.model = self.build_resnet_model(input_shape, output_shape)
         self.model.summary()
         self.fit(X_train, y_train)
         y_pred, test_loss, test_mae = self.predict(X_test, y_test)
