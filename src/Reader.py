@@ -76,6 +76,31 @@ class Reader():
         df = pd.DataFrame(data_list)
         return df
 
+    def read_file_no_limit(self, filepath, return_list=False):
+        self.filepath = filepath
+        self.check_file(self.filepath)
+        data_list = []
+        lines_limit = 1000 # limit reading lines, done for memory constraints
+        i = 0
+
+        with open(self.filepath, 'r') as file:
+            for line in file:
+                i+=1
+                #if i > lines_limit:
+                #    break
+                # Find the index of the first '{'
+                index = line.find('{')
+                if index != -1:
+                    json_data = line[index:]
+                    data = json.loads(json_data)
+                    data_list.append(data)
+
+        if return_list:
+            return data_list
+
+        df = pd.DataFrame(data_list)
+        return df
+
 
     def read_file_2(self, filepath, return_list=False):
         self.filepath = filepath
